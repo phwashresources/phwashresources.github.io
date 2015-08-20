@@ -15,11 +15,10 @@ body
   background-size: cover
 
 .navbar-default
-  height: 136px
   .container
     height: inherit
     .navbar-header
-      height: inherit
+      height: 136px
       .navbar-brand
         height: inherit
         img
@@ -27,6 +26,15 @@ body
           top: 50%
           transform: translateY(-50%)
           height: 65px
+    .navbar-nav
+      margin-top: 60px
+      li
+        padding: 0 35px 7px
+        a
+          padding: 0
+          &:hover
+            border-bottom: 1px solid #333
+          
 
 footer
   position: absolute
