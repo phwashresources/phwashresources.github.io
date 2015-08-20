@@ -1,0 +1,29 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header" align="center">
+            <button type="button" id="menu-button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="mobile-nav-brand">
+                <a href="/"><img src="/img/brand-logo.png"></a>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-menu-collapse">
+            <ul class="nav navbar-nav">
+                {% assign urlArray = page.url | split:"/"  %}
+                <li><a href="/whatsnew">WHAT'S NEW</a></li>
+                <li>
+                    <a href="/products" {% if 'products' == urlArray[1] %}class="active-text"{% endif %}>PRODUCTS</a>
+                </li>
+                <li><a href="/"><img src="/img/brand-logo.png" class="brand-logo-small"/></a></li>
+                <li><a href="javascript:void(0)">VIDEOS</a></li>
+                <li>
+                    <a {% if page.url =='/about/index.html' %} class="active-text"{% endif %} href="/about">ABOUT</a>
+                </li>
+                <li><a href="#" data-toggle="modal" data-target="#searchModal"><span class="glyphicon glyphicon-search"/></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
