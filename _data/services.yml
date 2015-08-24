@@ -1,12 +1,15 @@
-- img:
-  icon:
-  description:
+- title: Learn
+  img: /images/services-img/learn.png
+  icon: /images/services-icon/learn.png
+  description: "Visit our catalog of knowledge for WaSh resources and learn about whats working in the Philippines and around the world."
 
-- img:
-  icon:
-  description:
+- title: Implement
+  img: /images/services-img/implement.png
+  icon: /images/services-icon/implement.png
+  description: "PhATS has been submitted as the national recovery and development strategy for promoting universal access to improved sanitation and hygiene behavior with the entry point of ending the practice of open defecation by facilitating changes in social norms and building resilience in the Philippines."
 
-- img:
-  icon:
-  description:
+- title: Connect
+  img: /images/services-img/connect.png
+  icon: /images/services-icon/connect.png
+  description: "Start a conversation, contact Philippines WaSH Resources or join our mailing list to get alerts when something new comes along."
 
