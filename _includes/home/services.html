@@ -1,13 +1,16 @@
-<div class="container">
+<div id="services-section" class="container">
+    {% for services in site.data.services %}
     <div class="row">
-        <div class="col-lg-5">
-
+        <div class="col-lg-5 {% cycle 'pull-left', 'pull-right' %} services-img">
+            <img class="img-circle center-block" src="{{ services.img }}">
         </div>
-        <div class="col-lg-2">
-
+        <div class="col-lg-2 services-icon {{ services.class }}">
+            <img class="center-block" src="{{ services.icon }}">
         </div>
-        <div class="col-lg-5">
-
+        <div class="col-lg-5 {% cycle 'pull-right', 'pull-left' %}">
+            <h2>{{ services.title }}</h2>
+            <p>{{ services.description }}</p>
         </div>
     </div>
+    {% endfor %}
 </div>
