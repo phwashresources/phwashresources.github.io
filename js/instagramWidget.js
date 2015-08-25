@@ -1,9 +1,9 @@
-var fs = fs || {}
-    fs.instagram = function(){
-        fs.runInstagramFeed();
+var phInstagram = phInstagram || {}
+    phInstagram.instagram = function(){
+        phInstagram.runInstagramFeed();
     };
 
-fs.runInstagramFeed = function () {
+phInstagram.runInstagramFeed = function () {
     $.getScript('/js/instafeed.min.js', function () {
         if (Instafeed) {
             new Instafeed({
@@ -28,5 +28,5 @@ fs.runInstagramFeed = function () {
 };
 
 $(function(){
-    fs.instagram();
+    phInstagram.instagram();
 });
