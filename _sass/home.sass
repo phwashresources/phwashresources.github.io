@@ -132,7 +132,9 @@ header
 
 #services-section
   color: #777
+  margin-bottom: 130px
   .services-left
+    height: 360px
     padding-top: 15px
     .services-img-left
       img
@@ -144,19 +146,29 @@ header
         -webkit-border-radius: 50%
         -moz-border-radius: 50%
     .services-icon
+      height: inherit
       .circle-border
+        position: relative
         float: none
         display: table
         margin: 0 auto
         border: 1px solid #777
         border-radius: 50%
+        -webkit-border-radius: 50%
+        -moz-border-radius: 50%
+        padding: 65px
         img
-          padding: 65px
+          position: absolute
+          left: 0
+          right: 0
+          margin-left: auto
+          margin-right: auto
           height: 60px
+          top: 50%
+          transform: translateY(-50%)
     .services-description-left
       position: relative
       top: 160px
-      left: -4px
       h2
         position: relative
         top: -44px
@@ -166,6 +178,7 @@ header
         font-size: 20px
         line-height: 35px
   .services-right
+    height: 360px
     padding-top: 19px
     .services-img-right
       img
@@ -177,19 +190,29 @@ header
         -webkit-border-radius: 50%
         -moz-border-radius: 50%
     .services-icon
+      height: inherit
       .circle-border
+        position: relative
         float: none
         display: table
         margin: 0 auto
         border: 1px solid #777
         border-radius: 50%
+        -webkit-border-radius: 50%
+        -moz-border-radius: 50%
+        padding: 65px
         img
-          padding: 65px
+          position: absolute
+          left: 0
+          right: 0
+          margin-left: auto
+          margin-right: auto
           height: 60px
+          top: 50%
+          transform: translateY(-50%)
     .services-description-right
       position: relative
       top: 160px
-      left: -52px
       h2
         font-size: 41px
         margin-bottom: 25px
