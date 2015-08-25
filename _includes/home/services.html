@@ -1,8 +1,8 @@
 <div id="services-section" class="container">
     <h2 class="text-center section-header">What we can do together?</h2>
     {% for services in site.data.services %}
-    <div class="row">
-        <div class="col-lg-5 {% cycle 'pull-left', 'pull-right' %} services-img">
+    <div class="row {% cycle 'services-right','services-left' %}">
+        <div class="col-lg-5 {% cycle 'pull-left', 'pull-right' %} {% cycle 'services-img-right','services-img-left' %}">
             <img class="img-circle center-block" src="{{ services.img }}">
         </div>
         <div class="col-lg-2 services-icon {{ services.class }}">
@@ -10,7 +10,7 @@
                 <img class="center-block" src="{{ services.icon }}">
             </div>
         </div>
-        <div class="col-lg-5 {% cycle 'pull-right', 'pull-left' %}">
+        <div class="col-lg-5 {% cycle 'pull-right', 'pull-left' %} {% cycle 'services-description-right','services-description-left' %}">
             <h2>{{ services.title }}</h2>
             <p>{{ services.description }}</p>
         </div>
