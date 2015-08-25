@@ -262,8 +262,20 @@ header
     padding: 0
     [class*="col-"]
       padding: 0
-      img
-        width: 100%
+      .image-container
+        position: relative
+        img
+          width: 100%
+        .image-overlay
+          width: 100%
+          position: absolute
+          display: block
+          height: 100%
+          top: 0
+          background-color: rgba(0,0,0,0.5)
+          transition: all 500ms ease
+          &:hover
+            background-color: rgba(0,0,0,0)
 //    mouse animation
 @-webkit-keyframes mouse-wheel
   0%

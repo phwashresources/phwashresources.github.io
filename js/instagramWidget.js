@@ -18,8 +18,11 @@ phInstagram.runInstagramFeed = function () {
                     var data = feed.data.reverse();
                     $('.placeholder').each(function(index, placeholder){
                         var model = data.pop();
-                        $(placeholder).html('<a href="'+ model.link +'" target="_blank">'
-                            + '<img src="'+ model.images.low_resolution.url +'" /></a>').hide().fadeIn();
+                        $(placeholder).html(
+                            '<div class="image-container" style="background-color: #000 !important">'
+                            +'<a href="'+ model.link +'" target="_blank">'
+                            + '<img src="'+ model.images.low_resolution.url +'" />' + '</a>'
+                            +'<div class="image-overlay"></div>' + '</div>').hide().fadeIn();
                     });
                 }
             }).run();
