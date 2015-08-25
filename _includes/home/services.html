@@ -3,7 +3,9 @@
     {% for services in site.data.services %}
     <div class="row {% cycle 'services-right','services-left' %}">
         <div class="col-lg-5 {% cycle 'pull-left', 'pull-right' %} {% cycle 'services-img-right','services-img-left' %}">
-            <img class="img-circle center-block" src="{{ services.img }}">
+            <div class="img-cropper">
+                <img class="center-block" src="{{ services.img }}">
+            </div>
         </div>
         <div class="col-lg-2 services-icon {{ services.class }}">
             <div class="circle-border">
