@@ -3,7 +3,12 @@ phMain.phMainFunction = function() {
     phMain.runInstagramWidget();
     phMain.runFacebookWidget();
     phMain.runTwitterWidget();
+    phMain.stickyNavbar();
 };
+
+phMain.stickyNavbar = function(){
+    $(".category-nav-container").sticky({topSpacing:50});
+}
 
 phMain.runInstagramWidget = function(){
     $.getScript('http://instagramfollowbutton.com/components/instagram/v2/js/ig-follow.js', function(d,t){
