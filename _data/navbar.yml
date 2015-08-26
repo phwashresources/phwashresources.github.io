@@ -1,7 +1,11 @@
 - name: Home
+  url: /
 
 - name: PhATS
+  url: phats
 
 - name: Resources
+  url:
 
 - name: Contact Us
+  url:
