@@ -5,3 +5,8 @@ markdown: kramdown
 
 sass:
     style: :compressed
+
+collections:
+    pillars:
+        output: true
+        permalink: /phats/:path/
