@@ -1,9 +1,10 @@
 var phMain = phMain || {};
 phMain.phMainFunction = function() {
-    phMain.runInstagramWidget();
+    //phMain.runInstagramWidget();
     phMain.runFacebookWidget();
     phMain.runTwitterWidget();
     phMain.stickyNavbar();
+    phMain.categoryNavbarCollapse
 };
 
 phMain.stickyNavbar = function(){
