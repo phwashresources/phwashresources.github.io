@@ -7,7 +7,7 @@ banner:
     - /images/banner/governance.jpg
 
 description: >
-   The United Nations Development Programme (UNDP) defines governance as “The exercise of political, economic and administrative authority to manage a nation’s affairs at all levels. It comprises the mechanisms, processes and institutions through which citizens and groups articulate their interests, exercise their legal rights, meet their obligations and mediate their differences”.
+   The United Nations Development Programme (UNDP) defines governance as “the exercise of political, economic and administrative authority to manage a nation’s affairs at all levels. It comprises the mechanisms, processes and institutions through which citizens and groups articulate their interests, exercise their legal rights, meet their obligations and mediate their differences”.
    <br/><br/>
    By this definition, governance is not a unilateral or exclusive function of one party. Effective governance is the mid-dle ground, where the government and its citizens engage in a constant and constructive partnership to jointly deter-mine their quality of life as a community. Aspects of this community life include formulation and enforcement of policies, and management of resources for the greater good.
    <br/><br/>
@@ -17,11 +17,11 @@ description: >
    <br/><br/>
    Governance is an integral part of the demand and supply sections. Community demand can drive good governance, and good governance can stimulate and support demand. For account-able and equitable supply, good governance structures are needed. Plans are needed to ensure that demand and supply are maintained. Good governance leads to more investment, and even though the WaSH governance structures within the Philippines are fragmented, there is increasing demand for cohesion. Local governments have the ability to do this through the support of DILG and DOH at the various levels.
 
-project1:
-    title: Knowledge Management
-    description: Want to know more about PhATS Demand Creation in Communities? Check out the latest Knowledge Management Pieces!
+projects:
+    - title: Knowledge Management
+      description: Want to know more about PhATS Demand Creation in Communities? Check out the latest Knowledge Management Pieces!
 
-project2:
-    title: Resources
-    description: Research resources on triggering both in the Philippines and around the world can be found here.
+    - title: Resources
+      description: Research resources on triggering both in the Philippines and around the world can be found here.
+
 ---
