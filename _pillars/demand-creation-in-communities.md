@@ -16,5 +16,4 @@ projects:
 
     - title: Triggering Resource Drive Folder
       description: Research resources on triggering both in the Philippines and around the world can be found here.
-
 ---
