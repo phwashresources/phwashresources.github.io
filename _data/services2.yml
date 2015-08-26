@@ -1,0 +1,36 @@
+- title: Learn
+  img: /images/services-img/learn.jpg
+  icon: /images/services-icon/learn.png
+  class: pull-left
+  description: "Visit our catalog of knowledge for WaSh resources and learn about whats working in the Philippines and around the world."
+
+- title: Implement
+  img: /images/services-img/implement.jpg
+  icon: /images/services-icon/implement.png
+  class: pull-right
+  description: "PhATS has been submitted as the national recovery and development strategy for promoting universal access to improved sanitation and hygiene behavior with the entry point of ending the practice of open defecation by facilitating changes in social norms and building resilience in the Philippines."
+
+- title: Connect
+  img: /images/services-img/connect.jpg
+  icon: /images/services-icon/connect.png
+  class: pull-left
+  description: "Start a conversation, contact Philippines WaSH Resources or join our mailing list to get alerts when something new comes along."
+
+- title: Learn
+  img: /images/services-img/learn.jpg
+  icon: /images/services-icon/learn.png
+  class: pull-left
+  description: "Visit our catalog of knowledge for WaSh resources and learn about whats working in the Philippines and around the world."
+
+- title: Implement
+  img: /images/services-img/implement.jpg
+  icon: /images/services-icon/implement.png
+  class: pull-right
+  description: "PhATS has been submitted as the national recovery and development strategy for promoting universal access to improved sanitation and hygiene behavior with the entry point of ending the practice of open defecation by facilitating changes in social norms and building resilience in the Philippines."
+
+- title: Connect
+  img: /images/services-img/connect.jpg
+  icon: /images/services-icon/connect.png
+  class: pull-left
+  description: "Start a conversation, contact Philippines WaSH Resources or join our mailing list to get alerts when something new comes along."
+
