@@ -1,20 +1,6 @@
 <div class="container">
     <article id="article-content">
         <h1 class="section-header">{{ page.title }}</h1>
-        <p>The Philippines WaSH Cluster partners have worked with the Department of Health to develop a Sanitation Strategy for Early Recovery in Yolanda (Haiyan) affected areas based on the rural sanitation concept prior to Yolanda. The pro-posed Philippine Approach to Total Sanitation (PhATS) is designed to help the national government achieve the goals set forth in the Philippine Sustainable Sanitation Roadmap and the National Sustainable Sanitation Plan. It builds on these national instruments envisioning the creation of an open defecation free environment with safe disposal of liquid and solid wastes; the promotion of health and hygiene practices; and the strengthening of the enabling environment for sanitation and hygiene, through a phased and holistic approach to sanitation development.</p>
+        <p>{{ page.description }}</p>
     </article>
-    <div class="pillars-container">
-        <div class="row">
-            {% for pillars in site.data.services2 %}
-            <div class="col-lg-4 pillars-icon">
-                <div class="circle-border">
-                    <img class="center-block" src="{{ pillars.icon }}">
-                </div>
-                <div class="pillars-title">
-                    <span>{{ pillars.title | upcase }}</span>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
 </div>
