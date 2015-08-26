@@ -6,7 +6,7 @@ phPhats.phPhatsFunction = function() {
 phPhats.productImageSlider = function(){
     var autoPlaySlider = $('#product-img-slider').lightSlider({
         item: 5,
-        controls: false,
+        controls: true,
         speed: 2000,
         pause: 4000,
         auto: true,
