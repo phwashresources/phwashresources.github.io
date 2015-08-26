@@ -1,7 +1,7 @@
 ---
 layout: pillars
-
 title: "SUSTAINING DEMAND THROUGH SUPPLY SIDE INTERVENTION: Sanitation Marketing"
+name: "Sanitation Management"
 
 banner:
     - /images/banner/sanitation.jpg

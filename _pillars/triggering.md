@@ -1,7 +1,7 @@
 ---
 layout: pillars
-
 title: "PARTICIPATORY DEMAND CREATION IN COMMUNITIES: Triggering"
+name: "Triggering"
 
 banner:
     - /images/banner/triggering.jpg
