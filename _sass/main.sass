@@ -41,6 +41,67 @@ body
           padding: 0
           &:hover
             border-bottom: 1px solid #777
+
+
+.sticky-wrapper
+  height: auto !important
+  border-bottom: 1px solid #777
+.category-nav-container
+  background-color: white
+  z-index: 1
+  .category-nav-mobile
+    width: 100%
+    a
+      padding: 10px
+      color: white
+      text-decoration: none
+      font-size: 18px
+      float: none
+      display: table
+      margin: 0 auto
+      top: 50%
+      position: relative
+  .category-nav
+    padding: 0
+    height: 70px
+    margin-bottom: 0
+    li
+      &:hover
+        color: #2980b9
+      &.active
+        color: #2980b9
+      position: relative
+      top: 50%
+      transform: translateY(-50%)
+      cursor: pointer
+      list-style: none
+      padding: 10px
+      display: inline-block
+      text-align: center
+      font-family: MyriadPro-Regular, sans-serif
+      font-size: 17px
+      color: #333
+
+@media (min-width: 992px)
+  .category-nav-container
+    .category-nav-mobile
+      display: none
+
+@media (max-width: 991px)
+  .category-nav-container
+    background: rgba(0,0,0,0.8)
+    .category-nav-mobile
+      display: inline-block
+
+@media (max-width: 480px)
+  .category-nav-container
+    .category-nav-mobile
+      a
+        font-size: 16px
+    .category-nav
+      li
+        padding: 10px 0
+        font-size: 14px
           
 .section-header
   margin-top: 42px
