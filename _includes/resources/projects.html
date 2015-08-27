@@ -1,0 +1,28 @@
+
+<div class="panel-group" id="accordion">
+    {% for project in site.pillars %}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#{{ project.slug }}"><span class="glyphicon glyphicon-folder-close">
+                </span>{{ project.name }}</a>
+            </h4>
+        </div>
+
+        <div id="{{ project.slug }}" class="panel-collapse collapse">
+            <div class="panel-body">
+                <table class="table">
+                    {% for projects in page.projects %}
+                    <tr>
+                        <td>
+                            <a href="javascript:void(0)">{{ projects.title }}</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+

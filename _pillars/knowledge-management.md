@@ -2,6 +2,7 @@
 layout: pillars
 title: "ENABLING ENVIRONMENT: Knowledge Management"
 name: "Knowledge Management"
+slug: knowledge-management
 
 banner:
     - /images/banner/knowledge.jpg

@@ -2,6 +2,7 @@
 layout: pillars
 title: "ENABLING ENVIRONMENT: Good Governance"
 name: "Governance"
+slug: governance
 
 banner:
     - /images/banner/governance.jpg

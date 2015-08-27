@@ -2,6 +2,7 @@
 layout: pillars
 title: "ACHIEVING TOTAL SANITATION: Septage Management"
 name: "Septage Management"
+slug: septage-management
 
 banner:
     - /images/banner/septage.jpg
