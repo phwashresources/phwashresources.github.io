@@ -17,7 +17,7 @@ body
 
 .navbar-default
   background-color: white
-  border-color: transparent
+  border-bottom: 1px solid #888888
   .container
     height: inherit
     .navbar-header
@@ -44,7 +44,6 @@ body
 
 .sticky-wrapper
   height: auto !important
-  border-bottom: 1px solid #777
 .category-nav-container
   background-color: white
   z-index: 1
@@ -54,29 +53,31 @@ body
       padding: 10px
       color: #333
       text-decoration: none
-      font-size: 18px
+      font-size: 14px
       float: none
       display: table
       margin: 0 auto
       top: 50%
       position: relative
-  .category-nav
-    padding: 0
-    height: 70px
-    margin-bottom: 0
-    li
-      position: relative
-      top: 50%
-      transform: translateY(-50%)
-      cursor: pointer
-      list-style: none
-      padding: 10px
-      display: inline-block
-      text-align: center
-      font-family: MyriadPro-Regular, sans-serif
-      font-size: 17px
-      color: #4A4A4A
-
+  .full-width
+    width: 100%
+    border-bottom: 1px solid #888888
+    .category-nav
+      padding: 0
+      height: 70px
+      margin-bottom: 0
+      li
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+        cursor: pointer
+        list-style: none
+        padding: 10px
+        display: inline-block
+        text-align: center
+        font-family: MyriadPro-Regular, sans-serif
+        font-size: 14px
+        color: #4A4A4A
       a
         text-decoration: none
         color: #4A4A4A
@@ -159,7 +160,7 @@ body
 .section-header
   text-align: center
   color: #4A4A4A
-  margin-top: 42px
+  padding-top: 42px
   margin-bottom: 30px
 footer
   position: absolute
