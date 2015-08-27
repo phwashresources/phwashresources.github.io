@@ -8,7 +8,7 @@ phMain.phMainFunction = function() {
 };
 
 phMain.stickyNavbar = function(){
-    $(".category-nav-container").sticky({topSpacing:95});
+    $(".category-nav-container").sticky({topSpacing:96});
 }
 
 phMain.runInstagramWidget = function(){

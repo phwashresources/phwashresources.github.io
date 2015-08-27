@@ -14,10 +14,14 @@ body
 //  background-repeat: no-repeat
 //  background-size: cover
 //  background-position-y: -211px
+.modal-backdrop.fade
+  z-index: 5
+.modal.fade .modal-dialog
+  z-index: 50
 
 .navbar-default
   background-color: white
-  border-bottom: 1px solid #888888
+  border-color: transparent
   .container
     height: inherit
     .navbar-header
@@ -41,7 +45,6 @@ body
           padding: 0
           &:hover
             border-bottom: 1px solid #777
-
 .sticky-wrapper
   height: auto !important
 .category-nav-container
@@ -61,6 +64,7 @@ body
       position: relative
   .full-width
     width: 100%
+    border-top: 1px solid #888888
     border-bottom: 1px solid #888888
     .category-nav
       padding: 0
