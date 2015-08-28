@@ -120,21 +120,53 @@
         li
           display: inline-block
           .project-folder
-            color: #979797
+            color: inherit
           .project-title
-            color: #4A4A4A
+            color: inherit
             margin-left: 15px
+        &:hover
+          border-color: #00AEEF
+          color: #00AEEF
+
+@media (max-width: 1200px)
+  #projects
+    #projects-content
+      h4
+        height: 60px
 
 @media (max-width: 991px)
   .banner-container
     .pillars-header
       font-size: 5em
-
+  #projects
+    #projects-content
+      h4
+        height: auto
+        max-width: 80%
+        margin: 0 auto
+      a
+        ul
+          margin: 50px auto
 @media (max-width: 767px)
   .banner-container
     .pillars-header
       font-size: 4em
       max-width: 100%
+
+@media (max-width: 480px)
+  .section-header
+    font-size: 30px
+  .banner-container
+    .pillars-header
+      font-size: 3.2em
+      font-size: 30px
+
+  #article-content
+    p
+      text-align: left
+      font-size: 1.3em
+
+
 
 
 
