@@ -126,7 +126,10 @@ body
   .category-nav-container
     .category-nav-mobile
       display: none
-
+@media (max-width: 1200px)
+  .modal.fade 
+    .modal-dialog
+      max-width: 80%
 @media (max-width: 991px)
   .navbar.navbar-fixed-top
     .container
@@ -193,12 +196,19 @@ body
         a
           font-size: 17px
 
+  .modal.fade
+    .modal-dialog
+      max-width: 90%
+
+
 @media (max-width: 480px)
   .category-nav-container
     .full-width
       .category-nav
         a
           font-size: 14px
+  .modal-body
+    padding: 25px 20px !important
           
 .section-header
   text-align: center
