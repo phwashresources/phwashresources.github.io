@@ -9,20 +9,17 @@
                 </h4>
             </div>
         </a>
-        <div id="{{ pillar.slug }}" class="panel-collapse collapse">
-            <div class="panel-body">
-                <table class="table">
-                    {% for project in pillar.projects %}
-                    <tr>
-                        <td>
-                            <a href="javascript:void(0)">{{ project.title }}</a>
-                        </td>
-                    </tr>
-                    {% endfor %}
-                </table>
-            </div>
-        </div>
     </div>
+    <div id="{{ pillar.slug }}" class="panel-collapse collapse">
+        <ul class="project-title">
+            {% for project in pillar.projects %}
+            <li>
+                <a href="javascript:void(0)">{{ project.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
     {% endfor %}
 </div>
 
