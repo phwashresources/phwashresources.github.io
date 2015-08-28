@@ -1,0 +1,25 @@
+
+<div class="panel-group" id="accordion">
+    {% for gWash in site.generalwash %}
+    <div class="panel panel-default">
+        <a data-toggle="collapse" data-parent="#accordion" href="#{{ gWash.slug }}">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <span class="glyph-left glyphicon glyphicon-folder-close"></span>{{ gWash.name }}<span class="glyph-right glyphicon glyphicon-menu-right pull-right"></span>
+                </h4>
+            </div>
+        </a>
+    </div>
+    <!--<div id="{{ gWash.slug }}" class="panel-collapse collapse">-->
+        <!--<ul class="project-title">-->
+            <!--{% for gWashProject in gWash.projects %}-->
+            <!--<li>-->
+                <!--<a href="javascript:void(0)">{{ gWashProject.title }}</a>-->
+            <!--</li>-->
+            <!--{% endfor %}-->
+        <!--</ul>-->
+    <!--</div>-->
+
+    {% endfor %}
+</div>
+

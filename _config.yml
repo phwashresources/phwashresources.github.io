@@ -10,3 +10,5 @@ collections:
     pillars:
         output: true
         permalink: /phats/:path/
+    generalwash:
+        output: true
