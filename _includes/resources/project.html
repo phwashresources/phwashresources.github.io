@@ -2,13 +2,13 @@
 <div class="panel-group" id="accordion">
     {% for pillar in site.pillars %}
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#{{ pillar.slug }}"><span class="glyphicon glyphicon-folder-close">
-                </span>{{ pillar.name }}</a>
-            </h4>
-        </div>
-
+        <a data-toggle="collapse" data-parent="#accordion" href="#{{ pillar.slug }}">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <span class="glyph-left glyphicon glyphicon-folder-close"></span>{{ pillar.name }}
+                </h4>
+            </div>
+        </a>
         <div id="{{ pillar.slug }}" class="panel-collapse collapse">
             <div class="panel-body">
                 <table class="table">
