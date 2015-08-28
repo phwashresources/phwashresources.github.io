@@ -24,6 +24,7 @@
       box-shadow: none
       a
         text-decoration: none
+        color: #4A4A4A
         .panel-heading
           padding-left: 0
           list-style: none
@@ -32,10 +33,17 @@
           padding: 15px 15px 15px 30px
           .panel-title
             font-size: 1.4em
-            color: #4A4A4A
+            color: inherit
             .glyph-left
               margin-right: 15px
-              color: #9B9B9B
+              color: inherit
+          &:hover
+            border-color: #00AEEF
+            color: #00AEEF
+          &.active
+            border-color: #00AEEF
+            color: #00AEEF
+
     .panel-collapse
       margin: 20px auto 0px auto
       ul

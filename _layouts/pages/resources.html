@@ -4,3 +4,22 @@ css: /css/resources.css
 title: Resources
 ---
 {{ content }}
+<script>
+    var phResources = phResources || {}
+    phResources.resources = function(){
+        phResources.activeProject();
+    };
+    phResources.activeProject = function () {
+        var activeAnchor = $('.panel-group .panel-default a .panel-heading');
+//        var activeProjectBox = $('.panel-heading');
+        activeAnchor.on('click', function(){
+            $(this).toggleClass('active');
+            activeAnchor.not(this).removeClass('active');
+        });
+    };
+
+    $(function(){
+        phResources.resources();
+    });
+</script>
+i
