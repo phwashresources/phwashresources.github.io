@@ -180,18 +180,25 @@ body
     border-bottom: 0 !important
   .category-nav-container
     .category-nav-mobile
-      border-bottom: 1px solid #777
+      border-top: 1px solid #e7e7e7
+      border-bottom: 1px solid #e7e7e7
       display: inline-block
+      a
+        font-size: 18px
+    .full-width
+      border: transparent
+      .category-nav
+        margin-top: 40px
+        height: auto
+        a
+          font-size: 17px
 
 @media (max-width: 480px)
   .category-nav-container
-    .category-nav-mobile
-      a
-        font-size: 16px
-    .category-nav
-      li
-        padding: 10px 0
-        font-size: 14px
+    .full-width
+      .category-nav
+        a
+          font-size: 14px
           
 .section-header
   text-align: center
@@ -221,3 +228,11 @@ footer
             padding-right: 0
           .twitter-follow
             transform: translateY(27%)
+
+@media (max-width: 767px)
+  .navbar-default
+    .container
+      .navbar-header
+        .navbar-brand
+          img
+            height: 50px
