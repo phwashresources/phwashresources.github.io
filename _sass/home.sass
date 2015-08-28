@@ -276,6 +276,103 @@ header
           transition: all 500ms ease
           &:hover
             background-color: rgba(0,0,0,0)
+
+@media (max-width: 1200px)
+  header
+    .header-content
+      .header-content-inner
+        h1
+          max-width: 100%
+          font-size: 64px
+        p
+          max-width: 85% 
+  #services-section
+    .services-right
+      .services-img-right
+        .img-cropper
+          height: 300px
+          width: 300px
+    .services-left
+      .services-img-left
+        .img-cropper
+          height: 300px
+          width: 300px
+      .services-description-left
+        top: 110px
+
+@media (max-width: 991px)
+  header
+    .header-content
+      .header-content-inner
+        h1
+          font-size: 50px
+          max-width: 100%
+        p
+          font-size: 17px
+  #services-section
+    .services-right
+      .services-img-right
+        top: 110px
+        .img-cropper
+          height: 250px
+          width: 250px
+      .services-icon
+        .circle-border
+          padding: 55px
+          img
+            height: 40px
+        .dashed-line
+          left: 60%
+      .services-description-right
+        top: 110px
+        h2
+          font-size: 35px
+        p
+          font-size: 15px
+    .services-left
+      .services-img-left
+        top: 110px
+        .img-cropper
+          height: 250px
+          width: 250px
+      .services-icon
+        .circle-border
+          padding: 55px
+          img
+            height: 40px
+        .dashed-line
+          left: 60%
+      .services-description-left
+        top: 110px
+        h2
+          font-size: 35px
+        p
+          font-size: 15px
+
+@media (max-width: 767px)
+  header
+    .header-content
+      padding: 0
+      .header-content-inner
+        h1
+          font-size: 41px
+        p
+          max-width: 90%
+          font-size: 18px
+          text-align: justify
+
+@media (max-width: 643px)
+  header
+    .header-content
+      .header-content-inner
+        h1
+          font-size: 38px
+        p
+          width: 100%
+
+
+
+
 //    mouse animation
 @-webkit-keyframes mouse-wheel
   0%

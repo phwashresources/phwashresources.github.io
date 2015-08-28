@@ -19,10 +19,11 @@ phInstagram.runInstagramFeed = function () {
                     $('.placeholder').each(function(index, placeholder){
                         var model = data.pop();
                         $(placeholder).html(
-                            '<div class="image-container" style="background-color: #000 !important">'
-                            +'<a href="'+ model.link +'" target="_blank">'
-                            + '<img src="'+ model.images.low_resolution.url +'" />' + '</a>'
-                            +'<div class="image-overlay"></div>' + '</div>').hide().fadeIn();
+                            '<a href="'+ model.link +'" target="_blank">'
+                            +'<div class="image-container" style="background-color: #000 !important">'
+                            + '<img src="'+ model.images.low_resolution.url +'" />'
+                            +'<div class="image-overlay"></div>' + '</div>'
+                            + '</a>').hide().fadeIn();
                     });
                 }
             }).run();
