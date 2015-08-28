@@ -68,4 +68,36 @@
             &:active
               color: #00AEEF
 
+@media (max-width: 1200px)
+  .container
+    .panel-group
+      max-width: 100%
+
+@media (max-width: 767px)
+  .container
+    .panel-group
+      .panel-default
+        a
+          .panel-heading
+            .panel-title
+              font-size: 1.1em
+    .panel-collapse
+      ul
+        li
+          a
+            font-size: 1.1em
+    .project-header
+      padding-left: 0
+      
+  .banner-bar 
+    .banner-text
+      max-width: 90%
+      margin: 0 auto
+@media (max-width: 480px)
+  .banner-bar
+    .banner-text
+      font-size: 15px
+      max-width: 95%
+      margin: 0 auto
+  
 
