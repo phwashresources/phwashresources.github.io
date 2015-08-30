@@ -21,8 +21,9 @@ description: >
 projects:
     - title: WinS KM Drive folder
       description: Want to know more about PhATS Demand Creation in Communities? Check out the latest Knowledge Management Pieces!
+      url: https://goo.gl/P1SlVd
 
     - title: WinS Resource Drive Folder
       description: Research resources on triggering both in the Philippines and around the world can be found here.
-
+      url: https://goo.gl/liMme9
 ---

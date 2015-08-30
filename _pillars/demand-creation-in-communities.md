@@ -15,7 +15,9 @@ description: >
 projects: 
     - title: Triggering KM Drive folder
       description: Want to know more about PhATS Demand Creation in Communities? Check out the latest Knowledge Management Pieces!
+      url: https://goo.gl/F1ycxT
 
     - title: Triggering Resource Drive Folder
       description: Research resources on triggering both in the Philippines and around the world can be found here.
+      url: https://goo.gl/JOH3bw
 ---
