@@ -2,9 +2,9 @@
     <div id="projects-content" class="row">
         {% for projects in page.projects %}
         <div class="col-lg-6 col-md-6">
-            <h4 class="text-center"{% if page.name == "Knowledge Management" %} style="display:none;"{% endif %}>{{ projects.description }}</h4>
+            <h4 class="text-center"{% if page.slug == "knowledge-management" %} style="display:none;"{% endif %}>{{ projects.description }}</h4>
             <div class="project-box">
-                <a href="javascript:void(0)">
+                <a href="{{projects.url}}" target="_blank">
                     <ul>
                         <li>
                             <span class="project-folder glyphicon glyphicon-folder-close"></span>
