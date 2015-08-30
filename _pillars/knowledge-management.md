@@ -18,9 +18,15 @@ description: >
 
 projects:
     - title: Governance
+      url: https://goo.gl/0TCEQ1
     - title: Knowledge Management
+      url: https://goo.gl/df2uYt
     - title: Triggering
+      url: https://goo.gl/Mu2Z5Z
     - title: WaSH in Schools
+      url: https://goo.gl/S6kFJd
     - title: Sanitation Marketing
+      url: https://goo.gl/j2vqRB
     - title: Septage Management
+      url: https://goo.gl/VQ0iax
 ---

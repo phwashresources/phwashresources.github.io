@@ -8,14 +8,16 @@
     <div class="pillars-container">
         <div class="row">
             {% for pillars in site.data.phats %}
-            <div class="col-lg-4 pillars-icon">
-                <div class="circle-border">
-                    <img class="center-block" src="{{ pillars.icon }}">
+            <a href="{{ pillars.url }}" target="_blank">
+                <div class="col-lg-4 pillars-icon">
+                    <div class="circle-border">
+                        <img class="center-block" src="{{ pillars.icon }}">
+                    </div>
+                    <div class="pillars-title">
+                        <span>{{ pillars.title | upcase }}</span>
+                    </div>
                 </div>
-                <div class="pillars-title">
-                    <span>{{ pillars.title | upcase }}</span>
-                </div>
-            </div>
+            </a>
             {% endfor %}
         </div>
     </div>

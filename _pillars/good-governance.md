@@ -21,8 +21,9 @@ description: >
 projects:
     - title: Knowledge Management
       description: Want to know more about PhATS Demand Creation in Communities? Check out the latest Knowledge Management Pieces!
+      url: https://goo.gl/Jgu9Pf
 
     - title: Resources
       description: Research resources on triggering both in the Philippines and around the world can be found here.
-
+      url: https://goo.gl/FZnXWm
 ---
