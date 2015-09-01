@@ -27,4 +27,67 @@ projects:
     - title: Septage Resource Drive Folder
       description: Research resources on triggering both in the Philippines and around the world can be found here.
       url: https://goo.gl/6AAVXQ
+
+svg: >      
+    <?xml version="1.0" encoding="utf-8"?>
+    <svg version="1.1" id="septage" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+    <style type="text/css">
+        .septage1
+            {fill:#4A4A4B;}
+        .box:hover .septage1
+            {fill:#FFFFFF;}
+        .septage2
+            {fill:#EBECEC;}
+    </style>
+    <g>
+        <g>
+            <g>
+                <rect x="382.4" y="231.4" class="septage1" width="27.2" height="12.3"/>
+            </g>
+            <g>
+                <path class="septage1" d="M203.4,244.2h-30.2c-0.8,0-7.7-0.1-14.9-3.7c-10-5-15.6-14.5-15.6-26.8c0-19.2-5.3-22.2-22.2-22.2
+                    c-6.3,0-11.6-2.4-15.3-6.8c-8.4-10.2-5.3-27.8-4.9-29.8l12.7,2.5c-1,5.2-1.3,15,2.2,19.1c0.8,1,2.1,2.1,5.3,2.1
+                    c21.1,0,35.2,6,35.2,35.2c0,7.2,2.6,12.2,8.1,15c4.6,2.4,9.4,2.5,9.4,2.5h30.2V244.2z"/>
+            </g>
+            <g>
+                <rect x="128.7" y="172.6" class="septage1" width="7.3" height="26.3"/>
+                <path class="septage2" d="M137,199.9h-9.3v-28.3h9.3V199.9z M129.6,198h5.4v-24.4h-5.4V198z"/>
+            </g>
+            <g>
+                <rect x="168.6" y="223.7" class="septage1" width="7.3" height="26.3"/>
+                <path class="septage2" d="M176.9,251h-9.3v-28.3h9.3V251z M169.6,249h5.4v-24.4h-5.4V249z"/>
+            </g>
+            <g>
+                <rect x="409.1" y="223.7" class="septage1" width="7.3" height="26.3"/>
+                <path class="septage2" d="M417.4,251h-9.3v-28.3h9.3V251z M410.1,249h5.4v-24.4h-5.4V249z"/>
+            </g>
+            <g>
+                <rect x="194.7" y="224.3" class="septage1" width="6.1" height="26.3"/>
+                <path class="septage2" d="M201.9,251.6h-8.5v-28.3h8.5V251.6z M195.9,249.7h3.6v-24.4h-3.6V249.7z"/>
+            </g>
+            <g>
+                <rect x="383.1" y="224.3" class="septage1" width="5.6" height="26.3"/>
+                <path class="septage2" d="M389.8,251.6H382v-28.3h7.8V251.6z M384.2,249.7h3.3v-24.4h-3.3V249.7z"/>
+            </g>
+            <g>
+                <path class="septage1" d="M352.7,293.5H230.6c-15.9,0-28.9-12.9-28.9-28.9v-47.7c0-15.9,12.9-28.9,28.9-28.9h122.1
+                    c15.9,0,28.9,12.9,28.9,28.9v47.7C381.5,280.6,368.6,293.5,352.7,293.5z M230.6,194.6c-12.3,0-22.4,10-22.4,22.4v47.7
+                    c0,12.3,10,22.4,22.4,22.4h122.1c12.3,0,22.4-10,22.4-22.4v-47.7c0-12.3-10-22.4-22.4-22.4H230.6z"/>
+            </g>
+            <g>
+                <rect x="92.5" y="151.1" class="septage1" width="26.3" height="7.3"/>
+                <path class="septage2" d="M119.8,159.4H91.5v-9.3h28.3V159.4z M93.5,157.5h24.4v-5.4H93.5V157.5z"/>
+            </g>
+            <g>
+                <g>
+                    <path class="septage1" d="M256.8,250.4c7.4,6.6,14.9,13.2,22.3,19.7c2.5,2.2,5.8,1.7,7.6-1c11.8-16.7,23.6-33.4,35.4-50.2
+                        c1.7-2.4,3.4-4.8,5.1-7.2c3.6-5.1-4.8-10-8.4-4.9c-11.8,16.7-23.6,33.4-35.4,50.2c-1.7,2.4-3.4,4.8-5.1,7.2
+                        c2.5-0.3,5.1-0.7,7.6-1c-7.4-6.6-14.9-13.2-22.3-19.7C259,239.4,252.1,246.3,256.8,250.4L256.8,250.4z"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    </svg>
+
 ---
