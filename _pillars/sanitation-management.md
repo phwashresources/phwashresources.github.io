@@ -1,4 +1,5 @@
 ---
+id: 6
 layout: pillars
 title: "SUSTAINING DEMAND THROUGH SUPPLY SIDE INTERVENTION: Sanitation Marketing"
 name: "Sanitation Management"
