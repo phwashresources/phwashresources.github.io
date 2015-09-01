@@ -71,7 +71,7 @@ body
         top: 50%
         position: relative
         transform: translateY(-50%)
-        padding: 0 35px 8px
+        padding: 8px 35px 8px
         a
           color: #4A4A4A
           padding: 0
@@ -126,10 +126,12 @@ body
   .category-nav-container
     .category-nav-mobile
       display: none
+
 @media (max-width: 1200px)
   .modal.fade 
     .modal-dialog
       max-width: 80%
+
 @media (max-width: 991px)
   .navbar.navbar-fixed-top
     .container
@@ -178,7 +180,14 @@ body
       top: 50%
       position: relative
       transform: translateY(-50%)
-
+  .navbar-default
+    .container
+      .navbar-nav
+        li
+          a
+            border-bottom: 1px solid transparent
+            &:hover
+              border-bottom: 1px solid #777
   .sticky-wrapper
     border-bottom: 0 !important
   .category-nav-container
