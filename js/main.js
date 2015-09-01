@@ -4,9 +4,13 @@ phMain.phMainFunction = function() {
     phMain.runFacebookWidget();
     phMain.runTwitterWidget();
     phMain.stickyNavbar();
-    phMain.categoryNavbarCollapse
+    phMain.scrollReveal();
+
 };
 
+phMain.scrollReveal = function(){
+    window.sr = new scrollReveal();
+}
 phMain.stickyNavbar = function(){
     $(".category-nav-container").sticky({topSpacing:96});
 }
