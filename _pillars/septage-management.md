@@ -5,7 +5,7 @@ title: "ACHIEVING TOTAL SANITATION: Septage Management"
 name: "Septage Management"
 slug: septage-management
 pname: "Septage <br> Management"
-
+link: https://goo.gl/j2vqRB
 banner:
     - /images/banner/septage.jpg
 

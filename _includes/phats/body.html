@@ -9,7 +9,7 @@
         <div class="row">
             {% assign sorted-pillar = site.pillars | sort:"id" %}
             {% for pillar in sorted-pillar %}
-                <div class="col-lg-4 pillars-icon">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 pillars-icon" align="center">
                     <a id="{{ pillar.slug }}" href="{{ pillar.link }}" target="_blank">
                         <div class="circle-border">
                             <div class="box">

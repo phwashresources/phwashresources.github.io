@@ -5,7 +5,7 @@ title: "ENABLING ENVIRONMENT: Knowledge Management"
 name: "Knowledge Management"
 slug: knowledge-management
 pname: "Knowledge <br> Management"
-
+link: https://goo.gl/df2uYt
 banner:
     - /images/banner/knowledge.jpg
 

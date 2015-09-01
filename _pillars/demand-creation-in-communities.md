@@ -5,6 +5,7 @@ title: "PARTICIPATORY DEMAND CREATION IN COMMUNITIES: Triggering"
 name: "Demand Creation in Communities"
 slug: demand-creation
 pname: "Demand Creation <br> in Communities"
+link: https://goo.gl/Mu2Z5Z
 
 banner:
     - /images/banner/triggering.jpg

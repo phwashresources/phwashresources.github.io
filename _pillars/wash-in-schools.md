@@ -5,6 +5,7 @@ title: "PARTICIPATORY DEMAND CREATION IN LEARNING INSTITUTIONS, INCLUDING DAY CA
 name: "WaSH in Schools"
 slug: wash-in-school
 pname: "Wash in Schools"
+link: https://goo.gl/S6kFJd
 
 banner:
     - /images/banner/wash.jpg

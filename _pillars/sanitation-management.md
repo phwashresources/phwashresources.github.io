@@ -5,7 +5,7 @@ title: "SUSTAINING DEMAND THROUGH SUPPLY SIDE INTERVENTION: Sanitation Marketing
 name: "Sanitation Management"
 slug: sanitation-management
 pname: "Sanitation <br> Management"
-
+link: https://goo.gl/VQ0iax
 banner:
     - /images/banner/sanitation.jpg
 
