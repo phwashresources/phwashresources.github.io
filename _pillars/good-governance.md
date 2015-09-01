@@ -7,6 +7,7 @@ slug: governance
 link: https://goo.gl/0TCEQ1
 banner:
     - /images/banner/governance.jpg
+pname: Governance
 
 description: >
    The United Nations Development Programme (UNDP) defines governance as “the exercise of political, economic and administrative authority to manage a nation’s affairs at all levels. It comprises the mechanisms, processes and institutions through which citizens and groups articulate their interests, exercise their legal rights, meet their obligations and mediate their differences”.
@@ -29,19 +30,15 @@ projects:
       url: https://goo.gl/FZnXWm   
 svg: >
     <?xml version="1.0" encoding="utf-8"?>
-    <svg version="1.1" id="svg-governance" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <svg version="1.1" class="pillar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
        <style type="text/css">
            .governance1{
                fill:#4A4A4B;
-               transition: fill 500ms ease
-           }
-           .box:hover .governance1{
-               fill: #18a9e1;
-           }
-           .governance12{
-               fill:#FFFFFF;
-           }
+               transition: fill 500ms ease}
+           .circle-border:hover .governance1{fill: #18a9e1;}
+           
+           .governance12{fill:#FFFFFF;}
        </style>
        <g>
            <g>

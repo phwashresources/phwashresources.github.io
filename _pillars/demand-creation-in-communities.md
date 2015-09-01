@@ -4,6 +4,7 @@ layout: pillars
 title: "PARTICIPATORY DEMAND CREATION IN COMMUNITIES: Triggering"
 name: "Demand Creation in Communities"
 slug: demand-creation
+pname: "Demand Creation <br> in Communities"
 
 banner:
     - /images/banner/triggering.jpg
@@ -24,21 +25,23 @@ projects:
 
 svg: >
     <?xml version="1.0" encoding="utf-8"?>
-    <svg version="1.1" id="triggering" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <svg version="1.1" class="pillar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
          viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
     <style type="text/css">
         .triggering1
-            {fill:#4A4A4B;}
-        .box:hover .triggering1
+            {fill:#4A4A4B;
+            transition: fill 500ms ease;}
+        .circle-border:hover .triggering1
             {fill: #FFFFFF;}
             
         .triggering2
-            {fill:#EBECEC;}
-        .box:hover .triggering2
+            {fill:#EBECEC;transition: fill 500ms ease;}  
+        .circle-border:hover .triggering2
             {fill: #18a9e1;}
                     
-        .triggering3{fill:#4A4A4B;stroke:#EBECEC;stroke-miterlimit:10;}
-        .box:hover .triggering3
+        .triggering3
+            {fill:#4A4A4B;stroke:#EBECEC;stroke-miterlimit:10;transition: fill 500ms ease;}
+        .circle-border:hover .triggering3
                     {fill: #FFFFFF;}
         
     </style>

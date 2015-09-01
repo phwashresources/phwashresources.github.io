@@ -4,6 +4,7 @@ layout: pillars
 title: "ACHIEVING TOTAL SANITATION: Septage Management"
 name: "Septage Management"
 slug: septage-management
+pname: "Septage <br> Management"
 
 banner:
     - /images/banner/septage.jpg
@@ -30,12 +31,13 @@ projects:
 
 svg: >      
     <?xml version="1.0" encoding="utf-8"?>
-    <svg version="1.1" id="septage" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <svg version="1.1" class="pillar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
          viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
     <style type="text/css">
         .septage1
-            {fill:#4A4A4B;}
-        .box:hover .septage1
+            {fill:#4A4A4B;
+            transition: fill 500ms ease}
+        .circle-border:hover .septage1
             {fill:#FFFFFF;}
         .septage2
             {fill:#EBECEC;}

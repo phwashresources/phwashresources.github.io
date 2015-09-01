@@ -4,6 +4,7 @@ layout: pillars
 title: "ENABLING ENVIRONMENT: Knowledge Management"
 name: "Knowledge Management"
 slug: knowledge-management
+pname: "Knowledge <br> Management"
 
 banner:
     - /images/banner/knowledge.jpg
@@ -32,21 +33,21 @@ projects:
       url: https://goo.gl/VQ0iax
 svg: >
     <?xml version="1.0" encoding="utf-8"?>
-    <svg version="1.1" id="svg-knowledge" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <svg version="1.1" class="pillar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
     <style type="text/css">
     	.knowledge1{
     	    fill:#4A4A4B;
     	    transition: fill 500ms ease
     	}
-    	.box:hover .knowledge1{
+    	.circle-border:hover .knowledge1{
             fill: #FFFFFF;
          }
     	.knowledge2{
     	    fill: #FFFFFF;
     	    transition: fill 500ms ease
         }
-        .box:hover .knowledge2{
+        .circle-border:hover .knowledge2{
             fill: #18a9e1;
         }
     </style>

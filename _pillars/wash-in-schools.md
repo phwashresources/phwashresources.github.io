@@ -4,6 +4,7 @@ layout: pillars
 title: "PARTICIPATORY DEMAND CREATION IN LEARNING INSTITUTIONS, INCLUDING DAY CARE CENTERS: WaSH in Schools"
 name: "WaSH in Schools"
 slug: wash-in-school
+pname: "Wash in Schools"
 
 banner:
     - /images/banner/wash.jpg
@@ -30,16 +31,18 @@ projects:
       
 svg: >
     <?xml version="1.0" encoding="utf-8"?>
-    <svg version="1.1" id="wash-in-school" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <svg version="1.1" class="pillar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
     <style type="text/css">
     	.wash-in-school1
-    	    {fill:#4A4A4B;}
-    	.box:hover .wash-in-school1
+    	    {fill:#4A4A4B;
+    	    transition: fill 500ms ease}
+    	.circle-border:hover .wash-in-school1
             {fill:#FFFFFF;}
     	.wash-in-school2
-    	    {fill:#FFFFFF;}
-        .box:hover .wash-in-school2
+    	    {fill:#FFFFFF;
+    	    transition: fill 500ms ease}
+        .circle-border:hover .wash-in-school2
             {fill:#18a9e1;}
     </style>
     <g>

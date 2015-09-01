@@ -4,6 +4,7 @@ layout: pillars
 title: "SUSTAINING DEMAND THROUGH SUPPLY SIDE INTERVENTION: Sanitation Marketing"
 name: "Sanitation Management"
 slug: sanitation-management
+pname: "Sanitation <br> Management"
 
 banner:
     - /images/banner/sanitation.jpg
@@ -23,16 +24,18 @@ projects:
       url: https://goo.gl/5pgQIA
 svg: >
     <?xml version="1.0" encoding="utf-8"?>
-    <svg version="1.1" id="sanitation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <svg version="1.1" class="pillar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
     <style type="text/css">
     	.sanitation1
-    	    {fill:#4A4A4B;}
-    	.box:hover .sanitation1
+    	    {fill:#4A4A4B;
+    	    transition: fill 500ms ease}
+    	.circle-border:hover .sanitation1
     	    {fill:#FFFFFF;}    
     	.sanitation2
-    	    {fill:#EBECEC;}
-        .box:hover .sanitation2
+    	    {fill:#EBECEC;
+    	    transition: fill 500ms ease}
+        .circle-border:hover .sanitation2
             {fill:#18a9e1;}
     	.sanitation3
     	    {fill:#386578;}
