@@ -1,17 +1,23 @@
 - name: Governance
   link: /phats/good-governance/
+  slug: governance
 
 - name: Knowledge Management
   link: /phats/knowledge-management/
+  slug: knowledge-management
 
 - name: Triggering
   link: /phats/demand-creation-in-communities/
+  slug: demand-creation
 
 - name: WaSH in Schools
   link: /phats/wash-in-schools/
+  slug: wash-in-school
 
 - name: Sanitation Management
   link: /phats/sanitation-management/
+  slug: sanitation-management
 
 - name: Septage Management
   link: /phats/septage-management/
+  slug: septage-management

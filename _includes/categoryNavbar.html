@@ -6,9 +6,8 @@
         <div class="full-width collapse navbar-collapse" id="navbar-category-collapse">
             <ul class="category-nav">
                 {% for category in site.data.categories %}
-
-                <li class="col-lg-2 col-md-2 col-sm-6 col-xs-6" href="#">
-                    <a href="{{ category.link }}">
+                <li class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+                    <a {% if page.slug == category.slug %} class="active" {% endif %} href="{{ category.link }}">
                        {{ category.name }}
                     </a>
                 </li>
