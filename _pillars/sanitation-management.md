@@ -31,7 +31,7 @@ svg: >
     	    {fill:#4A4A4B;
     	    transition: fill 500ms ease}
     	.circle-border:hover .sanitation1
-    	    {fill:#FFFFFF;}    
+    	    {fill:#EAEAEA;}    
     	.sanitation2
     	    {fill:#EBECEC;
     	    transition: fill 500ms ease}

@@ -44,7 +44,7 @@ svg: >
             fill: #FFFFFF;
          }
     	.knowledge2{
-    	    fill: #FFFFFF;
+    	    fill: #EAEAEA;
     	    transition: fill 500ms ease
         }
         .circle-border:hover .knowledge2{

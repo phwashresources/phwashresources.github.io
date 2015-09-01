@@ -38,7 +38,7 @@ svg: >
                transition: fill 500ms ease}
            .circle-border:hover .governance1{fill: #18a9e1;}
            
-           .governance12{fill:#FFFFFF;}
+           .governance12{fill:#EAEAEA;}
        </style>
        <g>
            <g>

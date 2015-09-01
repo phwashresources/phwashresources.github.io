@@ -41,7 +41,7 @@ svg: >
     	.circle-border:hover .wash-in-school1
             {fill:#FFFFFF;}
     	.wash-in-school2
-    	    {fill:#FFFFFF;
+    	    {fill:#EAEAEA;
     	    transition: fill 500ms ease}
         .circle-border:hover .wash-in-school2
             {fill:#18a9e1;}
