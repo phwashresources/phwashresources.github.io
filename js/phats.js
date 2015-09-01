@@ -14,16 +14,29 @@ phPhats.productImageSlider = function(){
         enableDrag:false,
         responsive : [
             {
-                breakpoint:800,
+                breakpoint:1200,
                 settings: {
-                    item:4,
+                    item:4
+                }
+            },
+            {
+                breakpoint:991,
+                settings: {
+                    item:3,
                     enableDrag:true
                 }
             },
             {
-                breakpoint:480,
+                breakpoint:767,
                 settings: {
                     item:2,
+
+                }
+            },
+            {
+                breakpoint:520,
+                settings: {
+                    item:1,
 
                 }
             }
