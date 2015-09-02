@@ -16,13 +16,17 @@ description: >
    In line with a socio-ecologic model of change, this program pillar encourages the implementation of a range of different and complementary approaches to sanitation and hygiene demand creation at community and household levels: context, behavioral and social analysis to identify the bottlenecks and drivers towards collective sanitation outcomes; participatory demand creation campaigns designed to trigger rapid behavior change, encourage positive and sustainable actions to improve household sanitation, and plan towards collective sanitation outcomes such as Zero Open Defecation (ZOD) barangays; mass media campaigns; customized behavior change communications; local campaigns involving political, religious and community leaders; organizing and mobilizing communities to create avenues for dialogue with duty bearers to achieve consensus on action plans and coordinated action to enforce and monitor progress against those plans; and collective incentives and rewards designed to encourage behavior change, sustainability and resiliency.
 
 projects: 
-    - title: Triggering KM Drive folder
+    - title: Triggering KM
       description: Want to know more about PhATS Demand Creation in Communities? Check out the latest Knowledge Management Pieces!
       url: https://goo.gl/F1ycxT
 
-    - title: Triggering Resource Drive Folder
+    - title: Triggering Resource
       description: Research resources on triggering both in the Philippines and around the world can be found here.
       url: https://goo.gl/JOH3bw
+
+    - title: ZOD Maps
+      description: Research resources on triggering both in the Philippines and around the world can be found here.
+      url: https://goo.gl/zLX7lc
 
 svg: >
     <?xml version="1.0" encoding="utf-8"?>

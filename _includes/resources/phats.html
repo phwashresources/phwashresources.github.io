@@ -1,6 +1,8 @@
 
 <div class="panel-group" id="accordion">
-    {% for pillar in site.pillars %}
+    {% assign sorted-pillar = site.pillars | sort: "id" %}
+    {% for pillar in sorted-pillar %}
+    <!--{{pillar.id}} <<<>>> {{site.id}}-->
     <div class="panel panel-default">
         <a data-toggle="collapse" data-parent="#accordion" href="#{{ pillar.slug }}">
             <div class="panel-heading">
@@ -21,14 +23,14 @@
     </div>
 
     {% endfor %}
-    <div class="panel panel-default">
-        <a href="https://goo.gl/zLX7lc" target="_blank">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <span class="glyph-left glyphicon glyphicon-folder-close"></span>ZOD Maps<span class="glyph-right glyphicon glyphicon-menu-right pull-right"></span>
-                </h4>
-            </div>
-        </a>
-    </div>
+    <!--<div class="panel panel-default">-->
+        <!--<a href="https://goo.gl/zLX7lc" target="_blank">-->
+            <!--<div class="panel-heading">-->
+                <!--<h4 class="panel-title">-->
+                    <!--<span class="glyph-left glyphicon glyphicon-folder-close"></span>ZOD Maps<span class="glyph-right glyphicon glyphicon-menu-right pull-right"></span>-->
+                <!--</h4>-->
+            <!--</div>-->
+        <!--</a>-->
+    <!--</div>-->
 </div>
 

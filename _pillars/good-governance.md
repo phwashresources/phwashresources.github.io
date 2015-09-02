@@ -21,11 +21,11 @@ description: >
    Governance is an integral part of the demand and supply sections. Community demand can drive good governance, and good governance can stimulate and support demand. For account-able and equitable supply, good governance structures are needed. Plans are needed to ensure that demand and supply are maintained. Good governance leads to more investment, and even though the WaSH governance structures within the Philippines are fragmented, there is increasing demand for cohesion. Local governments have the ability to do this through the support of DILG and DOH at the various levels.
 
 projects:
-    - title: Knowledge Management
+    - title: Governance KM
       description: Want to know more about PhATS Demand Creation in Communities? Check out the latest Knowledge Management Pieces!
       url: https://goo.gl/Jgu9Pf
 
-    - title: Resources
+    - title: Governance Resource
       description: Research resources on triggering both in the Philippines and around the world can be found here.
       url: https://goo.gl/FZnXWm   
 svg: >

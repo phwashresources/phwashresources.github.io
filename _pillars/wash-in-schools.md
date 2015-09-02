@@ -22,11 +22,11 @@ description: >
     Apart from improving WaSH infrastructures; children are encouraged to take the lead in daily WaSH activities and hygiene promotion aiming at empowering them to become messengers of change to their peers, parents, siblings and entire communities.
 
 projects:
-    - title: WinS KM Drive folder
+    - title: WinS KM Drive
       description: Want to know more about PhATS Demand Creation in Communities? Check out the latest Knowledge Management Pieces!
       url: https://goo.gl/P1SlVd
 
-    - title: WinS Resource Drive Folder
+    - title: WinS Resource Drive
       description: Research resources on triggering both in the Philippines and around the world can be found here.
       url: https://goo.gl/liMme9
       
