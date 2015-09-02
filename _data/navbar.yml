@@ -1,8 +1,11 @@
 - name: Home
   url: /
+  slugUrl: /index.html
 
 - name: PhATS
   url: /phats
+  slugUrl: /phats/index.html
 
 - name: Resources
   url: /resources
+  slugUrl: /resources/index.html
