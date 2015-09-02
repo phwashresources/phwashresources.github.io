@@ -1,9 +1,9 @@
 var phMain = phMain || {};
 phMain.phMainFunction = function() {
     //phMain.scrollReveal();
-    //phMain.runInstagramWidget();
-    phMain.runFacebookWidget();
-    phMain.runTwitterWidget();
+    ////phMain.runInstagramWidget();
+    //phMain.runFacebookWidget();
+    //phMain.runTwitterWidget();
     phMain.stickyNavbar();
 
 
