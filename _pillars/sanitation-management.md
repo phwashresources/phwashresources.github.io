@@ -2,9 +2,9 @@
 id: 6
 layout: pillars
 title: "SUSTAINING DEMAND THROUGH SUPPLY SIDE INTERVENTION: Sanitation Marketing"
-name: "Sanitation Management"
+name: "Sanitation Marketing"
 slug: sanitation-management
-pname: "Sanitation <br> Management"
+pname: "Sanitation <br> Marketing"
 link: https://goo.gl/VQ0iax
 banner:
     - /images/banner/sanitation.jpg
