@@ -1,8 +1,9 @@
 .banner-container
-  min-height: 75vh
   background: url("/images/banner/phats.jpg")
   background-size: cover
   position: relative
+  min-height: 108vh
+  margin-top: -9.1%
   .pillars-header
     z-index: 5
     width: 80%
@@ -11,9 +12,10 @@
     position: absolute
     bottom: 5%
     left: 7%
-    font-family: MyriadPro-Bold
-    font-size: 7em
-    text-shadow: 2px 5px 10px #000
+    font-family: 'Century-Gothic-Bold'
+    font-size: 11em
+    text-shadow: 2px 1px 10px #000
+    line-height: 78%
   .background-overlay
     z-index: 3
     position: absolute
@@ -142,6 +144,12 @@
     a
       text-decoration: none
       font-size: 1.1em
+@media (max-width: 1366px)
+  .banner-container
+    min-height: 113vh
+    margin-top: -180px
+    .pillars-header
+      font-size: 8.7em
 
 @media (max-width: 1200px)
   #projects
@@ -150,9 +158,6 @@
         height: 60px
 
 @media (max-width: 991px)
-  .banner-container
-    .pillars-header
-      font-size: 5em
   #projects
     #projects-content
       h4
@@ -163,14 +168,17 @@
         ul
           text-align: center
           margin: 50px auto
+  .banner-container
+    .pillars-header
+      font-size: 7.3em
 
 @media (max-width: 767px)
   .banner-container
     .pillars-header
-      font-size: 4em
+      font-size: 6.3em
       max-width: 100%
 
-@media (max-width: 520px)
+@media (max-width: 580px)
   #pillars-description
     max-width: 100%
   .pillars-container
@@ -184,14 +192,16 @@
           span
             top: 80%
             transform: translateY(-80%)
-
+  .banner-container
+    .pillars-header
+      font-size: 4.3em
+      max-width: 90%
 @media (max-width: 480px)
   .section-header
     font-size: 30px
   .banner-container
     .pillars-header
-      font-size: 3.2em
-      font-size: 30px
+      font-size: 3.8em
   #article-content
     p
       text-align: left
