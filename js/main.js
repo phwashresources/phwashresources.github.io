@@ -11,7 +11,7 @@ phMain.scrollReveal = function(){
     window.sr = new scrollReveal();
 }
 phMain.stickyNavbar = function(){
-    $(".category-nav-container").sticky({topSpacing:96});
+    $(".category-nav-container").sticky({topSpacing:76});
 }
 
 phMain.runInstagramWidget = function(){
