@@ -5,8 +5,6 @@ phMain.phMainFunction = function() {
     //phMain.runFacebookWidget();
     //phMain.runTwitterWidget();
     phMain.stickyNavbar();
-
-
 };
 
 phMain.scrollReveal = function(){
