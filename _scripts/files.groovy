@@ -29,14 +29,13 @@ new URL(url).withReader (ENCODING) { reader ->
       Map file = [:]
       String id = it.@id.toString().replace('entry-','')
       file.url = "https://drive.google.com/file/d/${id}/view?pli=1"
-      file.name = it.'**'.find{ it.@class == 'flip-entry-title' }.text()
+      file.name = it.'**'.find{ it.@class == 'flip-entry-title' }.text().replaceFirst(~/\.[^\.]+$/, '')
       file.thumbnail = it.'**'.find{ it.@class == 'flip-entry-thumb' }.img.@src
-
       files << file
     }
 }
 
-"mkdir -p out".execute()
+//"mkdir -p out".execute()
 
 File yaml = new File('../_data/files.yml')
 //yaml.write('---\n')
@@ -45,3 +44,4 @@ files.each{ file ->
   yaml << "  thumb: ${file.thumbnail}\n"
   yaml << "  url: ${file.url}"
 }
+
