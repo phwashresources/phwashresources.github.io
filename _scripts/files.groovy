@@ -43,5 +43,5 @@ File yaml = new File('../_data/files.yml')
 files.each{ file ->
   yaml << "- name: ${file.name}\n"
   yaml << "  thumb: ${file.thumbnail}\n"
-  yaml << "  url: ${file.url}\n\n"
+  yaml << "  url: ${file.url}"
 }
