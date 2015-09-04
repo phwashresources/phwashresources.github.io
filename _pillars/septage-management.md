@@ -7,7 +7,7 @@ slug: septage-management
 pname: "Septage <br> Management"
 link: https://goo.gl/j2vqRB
 banner:
-    - /images/banner/septage.jpg
+    - https://res.cloudinary.com/dqmdfhrwe/image/upload/v1441343521/banner/septage.jpg
 
 description: >
     The final phase of the PhATS approach involves the introduction of the safe management of solid and liquid wastes, including drainage and the recycling and reuse of waste; and the development and strengthening of water quality monitoring systems, allied with the promotion of water supply protection, sanitary surveys, and safe water storage and handling.

@@ -8,7 +8,7 @@ pname: "Wash in Schools"
 link: https://goo.gl/S6kFJd
 
 banner:
-    - /images/banner/wash.jpg
+    - https://res.cloudinary.com/dqmdfhrwe/image/upload/v1441343522/banner/wash.jpg
 
 description: >
     Countless studies have proven that  health is essential to achieving increased educational performance. However, the prevalence of WaSH related diseases still affects many school children in the Philippines These diseases are highly preventable through basic Water, Sanitation and Hygiene interventions. In the PhATS approach, Learning Institutions (Schools and Day Care Centers) are used as entry points and avenues to improving the health status of children and adolescents while empowering them to be messengers of change for community interventions. In addition, the approach also includes capacity development for governmental counterparts of DepEd to improve enabling environment.
