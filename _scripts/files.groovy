@@ -38,8 +38,8 @@ new URL(url).withReader (ENCODING) { reader ->
 
 "mkdir -p out".execute()
 
-File yaml = new File('./out/files.yml')
-yaml.write('---\n')
+File yaml = new File('../_data/files.yml')
+//yaml.write('---\n')
 files.each{ file ->
   yaml << "- name: ${file.name}\n"
   yaml << "  thumb: ${file.thumbnail}\n"
