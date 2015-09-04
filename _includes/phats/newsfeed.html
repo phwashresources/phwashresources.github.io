@@ -4,7 +4,7 @@
     <ul id="product-img-slider">
         {% for newsfeed in site.data.files %}
         <li class="text-center">
-            <a href="{{ newsfeed.url }}">
+            <a href="{{ newsfeed.url }}" target="_blank">
                 <img src="{{ newsfeed.thumb }}"/>
                 <h3>{{ newsfeed.name }}</h3>
             </a>
