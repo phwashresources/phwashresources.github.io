@@ -4,22 +4,23 @@
     {% for pillar in sorted-pillar %}
     <!--{{pillar.id}} <<<>>> {{site.id}}-->
     <div class="panel panel-default">
-        <a data-toggle="collapse" data-parent="#accordion" href="#{{ pillar.slug }}">
+        <a class="panel-anchor" data-toggle="collapse" data-parent="#accordion" href="#{{ pillar.slug }}">
             <div class="panel-heading">
                 <h4 class="panel-title">
                     <span class="glyph-left glyphicon glyphicon-folder-close"></span>{{ pillar.name }}<span class="glyph-right glyphicon glyphicon-menu-right pull-right"></span>
                 </h4>
             </div>
         </a>
+        <div id="{{ pillar.slug }}" class="panel-collapse collapse">
+            <ul class="project-title">
+                {% for project in pillar.projects %}
+                <li>
+                    <a href="{{ project.url }}" target="_blank">{{ project.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
     </div>
-    <div id="{{ pillar.slug }}" class="panel-collapse collapse">
-        <ul class="project-title">
-            {% for project in pillar.projects %}
-            <li>
-                <a href="{{ project.url }}" target="_blank">{{ project.title }}</a>
-            </li>
-            {% endfor %}
-        </ul>
+
     </div>
 
     {% endfor %}

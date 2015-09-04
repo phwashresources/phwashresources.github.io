@@ -10,16 +10,25 @@ title: Resources
         phResources.activeProject();
     };
     phResources.activeProject = function () {
-        var activeAnchor = $('.panel-group .panel-default a .panel-heading');
+        var activeAnchor = $('.panel-anchor');
         activeAnchor.on('click', function(){
             $(this).toggleClass('active');
-            activeAnchor.not(this).removeClass('active');
-            $('.panel-collapse').not(this).removeClass('in');
-            $('#accordion .panel-collapse').on('shown.bs.collapse', function () {
-                $(this).prev().find(".glyph-right").removeClass("glyphicon-menu-right").addClass("glyphicon-menu-down");
-                $('#accordion .panel-collapse').not(this).prev().find(".glyph-right").removeClass("glyphicon-menu-down").addClass("glyphicon-menu-right");
-            });
+            $(this).find('.glyph-right').toggleClass('glyphicon-menu-down');
+            $(this).find('.glyph-right').toggleClass('glyphicon-menu-right');
+            console.log(activeAnchor.find('.glyph-right').not($(this).find('.glyph-right')));
+            activeAnchor.find('.glyph-right').not($(this).find('.glyph-right')).removeClass('glyphicon-menu-down');
+            activeAnchor.find('.glyph-right').not($(this).find('.glyph-right')).addClass('glyphicon-menu-right');
 
+            activeAnchor.not(this).removeClass('active');
+
+
+
+//            $(this).find('.glyph-right').toggleClass('glyphicon-menu-down');
+
+//            $('#accordion .panel-collapse').on('shown.bs.collapse', function () {
+//                $(this).prev().find(".glyph-right").removeClass("glyphicon-menu-right").addClass("glyphicon-menu-down");
+////                $('#accordion .panel-collapse').not(this).prev().find(".glyph-right").removeClass("glyphicon-menu-down").addClass("glyphicon-menu-right");
+//            });
         });
     };
 
@@ -27,4 +36,4 @@ title: Resources
         phResources.resources();
     });
 </script>
-i
+
