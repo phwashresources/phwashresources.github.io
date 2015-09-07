@@ -11,7 +11,6 @@ phMain.scrollReveal = function(){
     window.sr = new scrollReveal();
 }
 phMain.stickyNavbar = function(){
-    $('.navbar-default').sticky({topSpacing:0});
     $(".category-nav-container").sticky({topSpacing:76});
 }
 
