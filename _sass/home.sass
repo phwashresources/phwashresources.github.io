@@ -15,11 +15,11 @@ header
     background-size: cover
     -o-background-size: cover
   .header-content
-    top: 50%
+    top: 60%
     padding: 0 50px
-    -webkit-transform: translateY(-50%)
-    -ms-transform: translateY(-50%)
-    transform: translateY(-50%)
+    -webkit-transform: translateY(-60%)
+    -ms-transform: translateY(-60%)
+    transform: translateY(-60%)
     position: absolute
     width: 100%
     text-align: center
@@ -127,7 +127,7 @@ header
       left: -50%
       #video-sample
         margin: auto
-        min-height: 100%
+        height: 114%
         min-width: 50%
 #services-section
   color: #9B9B9B
@@ -293,6 +293,11 @@ header
           max-width: 52%
           font-size: 21px
 
+@media (max-width: 1366px)
+  header
+    .header-content
+      top: 80%
+      transform: translateY(-80%)
 @media (max-width: 1200px)
   header
     .header-content
