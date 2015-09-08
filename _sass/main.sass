@@ -50,37 +50,51 @@ body
     color: white
     width: 180px
     border-radius: 0
-  
-.navbar-default
-  background-color: transparent
-  border-color: transparent
-  .container
-    height: inherit
-    .navbar-header
-      height: 75px
-      .navbar-brand
-        height: inherit
-        img
-          position: relative
+nav
+  transition: all 500ms ease
+  &.navbar-default
+    background-color: transparent
+    border-color: transparent
+    .container
+      height: inherit
+      .navbar-header
+        height: 75px
+        .navbar-brand
+          height: inherit
+          img
+            position: relative
+            top: 50%
+            transform: translateY(-50%)
+            height: 50px
+      .navbar-nav
+        height: 75px
+        li
           top: 50%
+          position: relative
           transform: translateY(-50%)
-          height: 50px
-    .navbar-nav
-      height: 75px
-      li
-        top: 50%
-        position: relative
-        transform: translateY(-50%)
-        padding: 8px 35px 8px
-        &:last-child
-          padding-right: 0
-        a
-          color: white
-          padding: 0
-          &:hover
-            border-bottom: 1px solid white
-          &.active
-            border-bottom: 1px solid white
+          padding: 8px 35px 8px
+          &:last-child
+            padding-right: 0
+          a
+            color: white
+            padding: 0
+            &:hover
+              border-bottom: 1px solid white
+            &.active
+              border-bottom: 1px solid white
+
+  //  on navbar-shrink
+  &.navbar-shrink
+    background-color: #FFFFFF !important
+    .container
+      .navbar-nav
+        li
+          a
+            color: #4A4A4A !important
+            &:hover
+              border-bottom: 1px solid #4A4A4A !important
+            &.active
+              border-bottom: 1px solid #4A4A4A !important
 //.sticky-wrapper
 //  height: auto !important
 .category-nav-container

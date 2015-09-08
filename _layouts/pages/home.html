@@ -6,5 +6,14 @@ javascripts: >
     <script type="text/javascript" src="/js/home.js"></script>
     <script type="text/javascript" src="/js/instafeed.min.js"></script>
     <script type="text/javascript" src="/js/instagramWidget.js"></script>
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('nav').addClass('navbar-shrink');
+            } else {
+                $('nav').removeClass('navbar-shrink');
+            }
+        });
+    </script>
 ---
 {{ content }}
