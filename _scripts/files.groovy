@@ -26,22 +26,22 @@ new URL(url).withReader (ENCODING) { reader ->
     def document = parser.parse(reader)
 
     document.'**'.findAll { it.@class == 'flip-entry' }.each{
-      Map file = [:]
-      String id = it.@id.toString().replace('entry-','')
-      file.url = "https://drive.google.com/file/d/${id}/view?pli=1"
-      file.name = it.'**'.find{ it.@class == 'flip-entry-title' }.text().replaceFirst(~/\.[^\.]+$/, '')
-      file.thumbnail = it.'**'.find{ it.@class == 'flip-entry-thumb' }.img.@src
-      files << file
+        Map file = [:]
+        String id = it.@id.toString().replace('entry-','')
+        file.url = "https://drive.google.com/file/d/${id}/view?pli=1"
+        file.name = it.'**'.find{ it.@class == 'flip-entry-title' }.text().replaceFirst(~/\.[^\.]+$/, '')
+        file.thumbnail = it.'**'.find{ it.@class == 'flip-entry-thumb' }.img.@src
+        files << file
     }
 }
 
 //"mkdir -p out".execute()
 
-File yaml = new File('../_data/files.yml')
+File yaml = new File('files.yml')
 //yaml.write('---\n')
 files.each{ file ->
-  yaml << "- name: ${file.name}\n"
-  yaml << "  thumb: ${file.thumbnail}\n"
-  yaml << "  url: ${file.url}"
+    yaml << "- name: ${file.name}\n"
+    yaml << "  thumb: ${file.thumbnail}\n"
+    yaml << "  url: ${file.url}\n\n"
 }
 
