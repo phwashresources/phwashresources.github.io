@@ -6,7 +6,7 @@ html
 
 body
   font-family: 'MyriadPro-Regular'
-  margin: 0 0 74px //this will depends on footer height
+  margin: 75px 0 74px //this will depends on footer height
   
 //#mock
 //  background: url(/images/home.jpg)
@@ -50,10 +50,11 @@ body
     color: white
     width: 180px
     border-radius: 0
+
 nav
   transition: all 500ms ease
   &.navbar-default
-    background-color: transparent
+    background-color: #FFFFFF
     border-color: transparent
     .container
       height: inherit
@@ -76,25 +77,14 @@ nav
           &:last-child
             padding-right: 0
           a
-            color: white
+            color: #4A4A4A
             padding: 0
             &:hover
-              border-bottom: 1px solid white
+              border-bottom: 1px solid #4A4A4A
             &.active
-              border-bottom: 1px solid white
+              border-bottom: 1px solid #4A4A4A
 
   //  on navbar-shrink
-  &.navbar-shrink
-    background-color: #FFFFFF !important
-    .container
-      .navbar-nav
-        li
-          a
-            color: #4A4A4A !important
-            &:hover
-              border-bottom: 1px solid #4A4A4A !important
-            &.active
-              border-bottom: 1px solid #4A4A4A !important
 //.sticky-wrapper
 //  height: auto !important
 .category-nav-container

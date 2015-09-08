@@ -1,3 +1,32 @@
+body
+  margin-top: 0 !important
+
+nav
+  &.navbar-shrink
+    background-color: #FFFFFF !important
+    .container
+      .navbar-nav
+        li
+          a
+            color: #4A4A4A !important
+            &:hover
+              border-bottom: 1px solid #4A4A4A !important
+            &.active
+              border-bottom: 1px solid #4A4A4A !important
+  &.navbar-default
+    background-color: transparent
+    border-color: transparent
+    .container
+      .navbar-nav
+        li
+          a
+            color: #FFFFFF
+            padding: 0
+            &:hover
+              border-bottom: 1px solid #FFFFFF
+            &.active
+              border-bottom: 1px solid #FFFFFF
+
 header
   &.hero
     min-height: auto
@@ -322,6 +351,17 @@ header
         top: 110px
 
 @media (max-width: 991px)
+  .navbar-default
+    background-color: #FFFFFF !important
+    .container
+      .navbar-nav
+        li
+          a
+            color: #4A4A4A !important
+            &:hover
+              color: #4A4A4A !important
+            &.active
+              color: #4A4A4A !important
   header
     .header-content
       .header-content-inner
