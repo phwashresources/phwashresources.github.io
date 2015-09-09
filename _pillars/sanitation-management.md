@@ -7,7 +7,7 @@ slug: sanitation-management
 pname: "Sanitation <br> Marketing"
 link: https://goo.gl/VQ0iax
 banner:
-    - https://res.cloudinary.com/dqmdfhrwe/image/upload/v1441343531/banner/sanitation.jpg
+    - https://res.cloudinary.com/phwashresources/image/upload/v1441343531/banner/sanitation.jpg
 
 description: >
     The supply component of the Philippines Approach to Total Sanitation (PhATS) aims to strengthen local supply chains for sanitation and hygiene goods and services and encourage Sanitation Marketing (SanMark). Through SanMark, suppliers and service providers market their goods and services to rural households, with the aim of increasing demand, improving supply and achieving greater sales and profits.
