@@ -180,6 +180,43 @@
     .pillars-header
       font-size: 7.3em
 
+@media (max-width: 768px) and (max-height: 1024px) and (orientation: portrait)
+  .banner-container
+    min-height: 42vh
+    margin-top: 0
+    .pillars-header
+      font-size: 5.3em
+@media (max-width: 1024px) and (max-height: 768px) and (orientation: landscape)
+  .banner-container
+    min-height: 75vh
+    margin-top: -100px
+    .pillars-header
+      font-size: 5.3em
+  .category-nav-container
+    .full-width
+      .category-nav
+        li
+          font-size: 13px
+
+@media (max-width: 600px) and (max-height: 800px) and (orientation: portrait)
+  .banner-container
+    min-height: 42vh
+    margin-top: 0
+    .pillars-header
+      font-size: 4.3em !important
+
+@media (max-width: 800px) and (max-height: 600px) and (orientation: landscape)
+  .banner-container
+    min-height: 75vh
+    margin-top: -100px
+    .pillars-header
+      font-size: 4.3em !important
+  .category-nav-container
+    .full-width
+      .category-nav
+        li
+          font-size: 13px
+
 @media (max-width: 767px)
   .banner-container
     .pillars-header
