@@ -328,6 +328,8 @@ header
             background-color: rgba(0,0,0,0)
 
 @media (min-width: 1367px)
+  body
+    margin-top: 0 !important
   header
     .header-content
       .header-content-inner
@@ -345,6 +347,7 @@ header
     .header-content
       top: 80%
       transform: translateY(-80%)
+
 @media (max-width: 1200px)
   header
     .header-content
@@ -369,6 +372,8 @@ header
         top: 110px
 
 @media (max-width: 991px)
+  body
+    margin-top: 75px !important
   .navbar-default
     background-color: #FFFFFF !important
     .container
@@ -514,6 +519,16 @@ header
           font-size: 16px
         .page-scroll
           display: none
+
+@media (max-width: 320px) and (max-height: 480px) and (orientation: portrait)
+  header
+    #video-header
+      height: 85vh !important
+
+@media (max-width: 480px) and (max-height: 320px) and (orientation: landscape)
+  header
+    #video-header
+      height: 100vh !important
 
 @media (max-width: 321px)
   header
