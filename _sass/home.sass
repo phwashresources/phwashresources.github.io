@@ -481,6 +481,12 @@ header
           margin: 0 auto
     header
       .header-content
+        top: 60%
+        transform: translateY(-60%)
+        -webkit-transform: translateY(-60%)
+        -moz-transform: translateY(-60%)
+        -o-transform: translateY(-60%)
+        -ms-filter: translateY(-60%)
         .header-content-inner
           h1
             font-size: 50px
@@ -488,6 +494,8 @@ header
           p
             max-width: 80%
             font-size: 17px
+          .page-scroll
+            display: none
 
 @media (max-width: 660px)
   header
@@ -504,6 +512,10 @@ header
     .header-content
       top: 20%
       transform: none
+      -webkit-transform: none
+      -moz-transform: none
+      -o-transform: none
+      -ms-filter: none
       .header-content-inner
         h1
           font-size: 35px
