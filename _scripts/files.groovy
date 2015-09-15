@@ -1,5 +1,6 @@
 #!/usr/bin/env groovy
-
+import com.cloudinary.*
+import com.cloudinary.utils.ObjectUtils
 @Grapes( @Grab('org.ccil.cowan.tagsoup:tagsoup:1.2') )
 
 import org.ccil.cowan.tagsoup.Parser
@@ -19,6 +20,12 @@ println "Scraping ${url}..."
 
 def parser = new XmlSlurper(new Parser() )
 
+Cloudinary cloudinary = new Cloudinary([
+        cloud_name: "phwashresources",
+        api_key: "435882447182742",
+        api_secret: "Hg3u_JGldaZB3nFQ-mTfWcLl20k"
+])
+
 List files = []
 
 String baseUrl = url.take(url.indexOf('/', url.indexOf('://')+3))
@@ -30,16 +37,19 @@ new URL(url).withReader (ENCODING) { reader ->
         Map file = [:]
         String id = it.@id.toString().replace('entry-','')
         file.url = "https://drive.google.com/file/d/${id}/view?pli=1"
-        file.name = it.'**'.find{ it.@class == 'flip-entry-title' }.text().replaceFirst(~/\.[^\.]+$/, '')
-        file.thumbnail = it.'**'.find{ it.@class == 'flip-entry-thumb' }.img.@src
+        String name = it.'**'.find{ it.@class == 'flip-entry-title' }.text().replaceFirst(~/\.[^\.]+$/, '')
+        file.name = name
+        Map params = ObjectUtils.asMap("public_id", "news-letter/" + name)
+        Map uploadResult = cloudinary.uploader().upload(it.'**'.find{ it.@class == 'flip-entry-thumb' }.img.@src.text(), params)
+        file.thumbnail = uploadResult.get("url")
         files << file
     }
 }
 
 //"mkdir -p out".execute()
 
-File yaml = new File('files.yml')
-//yaml.write('---\n')
+File yaml = new File('../_data/files.yml')
+yaml.write('')
 files.each{ file ->
     yaml << "- name: ${file.name}\n"
     yaml << "  thumb: ${file.thumbnail}\n"
