@@ -1,7 +1,7 @@
 var phHome = phHome || {};
 phHome.phHomeFunction = function() {
     phHome.pageScroll();
-    phHome.navbarScroll();
+    phHome.navbar;Scroll()
 };
 
 phHome.pageScroll = function(){
