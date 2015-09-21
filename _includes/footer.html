@@ -5,7 +5,7 @@
       <ul>
         {% for socialMedia in site.data.media %}
         <li>
-          <a href="">
+          <a href="{{ socialMedia.iconUrl }}" target="_blank">
             <img src="{{ socialMedia.icon }}"/>
           </a>
         </li>
