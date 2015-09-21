@@ -21,12 +21,12 @@ description: >
     As a first step, sustainability monitoring systems will be introduced as part of the G2 graduation process, with the aim of tracking what happens to toilet pits and septic tanks as they fill up and start to cause problems – whether pits are emptied or replaced; whether septic tanks are regularly desludged; whether effluent from either toilet pits or septic tanks contaminates local water bodies or open spaces; and whether any removed pit contents or septic sludge are then safely transported, treated or disposed. Improved information on the extent and nature of these sustainability problems will be an important driver for local governments and sanitation stakeholders to finance, develop and implement appropriate solutions in areas that face public health hazards associated with unsafe sanitation and waste management systems.
 
 projects:
-    - title: Setage KM Drive
-      description: Want to know more about PhATS Demand Creation in Communities? Check out the latest Knowledge Management Pieces!
+    - title: Septage KM Drive
+      description: Want to know more about PhATS Septage Management in Communities? Check out the latest Knowledge Management Pieces!
       url: https://goo.gl/wu4ouB
 
     - title: Septage Resource Drive
-      description: Research resources on triggering both in the Philippines and around the world can be found here.
+      description: Research resources on Septage Management both in the Philippines and around the world can be found here.
       url: https://goo.gl/6AAVXQ
 
 svg: >       

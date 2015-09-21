@@ -26,7 +26,7 @@ projects:
       url: https://goo.gl/Jgu9Pf
 
     - title: Governance Resource Drive
-      description: Research resources Governance both in the Philippines and around the world can be found here.
+      description: Research resources on Governance both in the Philippines and around the world can be found here.
       url: https://goo.gl/FZnXWm   
 svg: >
     <?xml version="1.0" encoding="utf-8"?>

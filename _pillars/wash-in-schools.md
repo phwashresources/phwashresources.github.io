@@ -23,11 +23,11 @@ description: >
 
 projects:
     - title: WinS KM Drive
-      description: Want to know more about PhATS Demand Creation in Communities? Check out the latest Knowledge Management Pieces!
+      description: Want to know more about Supply Side Intervention/Sanitation Marketing in Communities? Check out the latest Knowledge Management Pieces!
       url: https://goo.gl/P1SlVd
 
     - title: WinS Resource Drive
-      description: Research resources on triggering both in the Philippines and around the world can be found here.
+      description: Research resources on Sanitation Marketing both in the Philippines and around the world can be found here.
       url: https://goo.gl/liMme9
       
 svg: >
