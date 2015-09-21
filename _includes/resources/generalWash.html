@@ -1,6 +1,7 @@
 
 <div class="panel-group" id="accordion">
-    {% for gWash in site.generalwash %}
+    {% assign sorted-generalWash = site.generalwash | sort: "id" %}
+    {% for gWash in sorted-generalWash %}
     <div class="panel panel-default">
         <a class="panel-anchor" href="{{ gWash.link }}" target="_blank">
             <div class="panel-heading">
