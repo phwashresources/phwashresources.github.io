@@ -22,7 +22,7 @@ description: >
 
 projects:
     - title: Septage KM Drive
-      description: Want to know more about PhATS Septage Management in Communities? Check out the latest Knowledge Management Pieces!
+      description: Want to know more about PhATS Septage Management? Check out the latest Knowledge Management Pieces!
       url: https://goo.gl/wu4ouB
 
     - title: Septage Resource Drive
