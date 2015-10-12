@@ -7,9 +7,9 @@ phInstagram.runInstagramFeed = function () {
     $.getScript('/js/instafeed.min.js', function () {
         if (Instafeed) {
             new Instafeed({
-                get: 'tagged',
-                tagName: 'phwash',
-                clientId: '939773e2d8e94fe2a31940e250d74266',
+                get: 'user',
+                userId: 2194348646,
+                accessToken: '2194348646.467ede5.defa5414de76492d85119f57442516fb',
                 limit: 8,
                 sortBy: 'most-recent',
                 template: '<a href="{{link}}" target="_blank" class="col-md-2 col-sm-2 col-xs-6"><img src="{{image}}" /></a>',
