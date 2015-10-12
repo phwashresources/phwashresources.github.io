@@ -1,7 +1,16 @@
 <footer>
   <div class="container">
-    <ul id="footer-content">
-      <li>Philippines Wash Resources All rights reserved 2015</li>
-    </ul>
+    <div class="copyright">Philippines Wash Resources All rights reserved 2015</div>
+    <div class="social-media-buttons">
+      <ul>
+        {% for socialMedia in site.data.media %}
+        <li>
+          <a href="{{ socialMedia.iconUrl }}" target="_blank">
+            <img src="{{ socialMedia.icon }}"/>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </footer>
