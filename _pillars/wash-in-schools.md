@@ -15,7 +15,7 @@ description: >
     <br/><br/>
     The implementation of WaSH in Schools (WinS) and Day Care Centers uses the Three Star Approach to effectively help schools to meet the minimum standard for WaSH in learning institutions.
     <br/><br/>
-    The Department of Education (DepEd) School Based Management (SBM) is used as the main mode of implementation for managing and rolling out the program component. In addition, NGO partners are using schools as entry points for their intervention to ensure that children have access to soap and water for handWaSHing; safe water for drinking; gender segregated toilets; and access to functional WaSHing facilities.
+    The Department of Education (DepEd) School Based Management (SBM) is used as the main mode of implementation for managing and rolling out the program component. In addition, NGO partners are using schools as entry points for their intervention to ensure that children have access to soap and water for handwashing; safe water for drinking; gender segregated toilets; and access to functional washing facilities.
     <br/><br/>
     In line with the overall PhATS strategy, local investments are promoted as well as inter-sectoral collaboration and community involvement by including WaSH in School Improvement Plans and Annual Investment Plans. This helps schools prioritize WaSH by providing a pathway for meeting national standards.
     <br/><br/>
@@ -23,11 +23,11 @@ description: >
 
 projects:
     - title: WinS KM Drive
-      description: Want to know more about Supply Side Intervention/Sanitation Marketing in Communities? Check out the latest Knowledge Management Pieces!
+      description: Want to know more about PhATS WaSH in Schools? Check out the latest Knowledge Management Pieces!!
       url: https://goo.gl/P1SlVd
 
     - title: WinS Resource Drive
-      description: Research resources on Sanitation Marketing both in the Philippines and around the world can be found here.
+      description: Research resources on WaSH in Schools both in the Philippines and around the world can be found here.
       url: https://goo.gl/liMme9
       
 svg: >
