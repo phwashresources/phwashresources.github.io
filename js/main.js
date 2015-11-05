@@ -1,43 +1,24 @@
 var phMain = phMain || {};
 phMain.phMainFunction = function() {
-    //phMain.scrollReveal();
-    ////phMain.runInstagramWidget();
-    //phMain.runFacebookWidget();
-    //phMain.runTwitterWidget();
     phMain.stickyNavbar();
     phMain.changeNavbarColor();
+    phMain.closeNavbarButton();
 };
 
-
-//var self = this;
-//$(document).scroll(function () {
-//
-//    var scrollTop = $(document).scrollTop();
-//
-//    //Show sidebar when needed
-//    if ((scrollTop >= $('#rooms').offset().top - 100)
-//        && scrollTop <= $('#ig').offset().top - 500) {
-//
-//        self.show();
-//
-//        var nearest = _.min($('.room h2'), function (room) {
-//            var diff = $(room).offset().top - scrollTop;
-//            if (diff < 0) {
-//                return;
-//            } else {
-//                return diff;
-//            }
-//        });
-//
-//        var nearestBranch = $(nearest).closest('.room').data('branch');
-//
-//        $('.sidebar-branch').not('.sidebar-branch-' + nearestBranch).hide();
-//        $('.sidebar-branch-' + nearestBranch).show();
-//
-//    else {
-//        self.hide();
-//    }
-//}
+phMain.closeNavbarButton = function(){
+    $(document).click(function () {
+        var _opened = $(".top-navbar.navbar-collapse").hasClass("navbar-collapse collapse in");
+        var _openedCategory = $('.full-width.navbar-collapse').hasClass('full-width navbar-collapse collapse in');
+        if (_opened === true) {
+            $("button.navbar-toggle").click();
+            $(".full-width.navbar-collapse.in").removeClass("in");
+        }
+        if(_openedCategory === true) {
+            $("#category-button").click();
+            $(".top-navbar.navbar-collapse.in").removeClass("in");
+        }
+    });
+}
 
 phMain.changeNavbarColor = function(){
 
