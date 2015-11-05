@@ -20,28 +20,31 @@ println "Scraping ${url}..."
 
 def parser = new XmlSlurper(new Parser() )
 
-Cloudinary cloudinary = new Cloudinary([
-        cloud_name: "phwashresources",
-        api_key: "435882447182742",
-        api_secret: "Hg3u_JGldaZB3nFQ-mTfWcLl20k"
-])
+//Cloudinary cloudinary = new Cloudinary([
+//        cloud_name: "phwash",
+//        api_key: "332339313425726",
+//        api_secret: "pRTqGZSKb9LZwgB7-yLbU50xNPk"
+//])
 
 List files = []
 
 String baseUrl = url.take(url.indexOf('/', url.indexOf('://')+3))
-
+"mkdir -p ../images/pdf".execute()
 new URL(url).withReader (ENCODING) { reader ->
     def document = parser.parse(reader)
 
-    document.'**'.findAll { it.@class == 'flip-entry' }.each{
+    document.'**'.findAll { it.@class == 'flip-entry' }.each {
         Map file = [:]
-        String id = it.@id.toString().replace('entry-','')
+        String id = it.@id.toString().replace('entry-', '')
         file.url = "https://drive.google.com/file/d/${id}/view?pli=1"
-        String name = it.'**'.find{ it.@class == 'flip-entry-title' }.text().replaceFirst(~/\.[^\.]+$/, '')
+        String name = it.'**'.find { it.@class == 'flip-entry-title' }.text().replaceFirst(~/\.[^\.]+$/, '')
         file.name = name
         Map params = ObjectUtils.asMap("public_id", "news-letter/" + name)
-        Map uploadResult = cloudinary.uploader().upload(it.'**'.find{ it.@class == 'flip-entry-thumb' }.img.@src.text(), params)
-        file.thumbnail = uploadResult.get("url")
+//        Map uploadResult = cloudinary.uploader().upload(it.'**'.find{ it.@class == 'flip-entry-thumb' }.img.@src.text(), params)
+        String imageURL = it.'**'.find { it.@class == 'flip-entry-thumb' }.img.@src.text()
+        File imageFile = new File("../images/pdf/${name}.jpg")
+        imageFile.bytes = new URL(imageURL).bytes
+        file.thumbnail = imageFile.path
         files << file
     }
 }
