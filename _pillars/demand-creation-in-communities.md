@@ -8,7 +8,7 @@ pname: "Demand Creation <br> in Communities"
 link: https://goo.gl/Mu2Z5Z
 
 banner:
-    - https://res.cloudinary.com/phwashresources/image/upload/v1441343521/banner/triggering.jpg
+    - /images/banner/triggering.jpg
 
 description: >
    Low demand for household sanitation and hygiene is a central constraint to service improvement, with most households unaware of the true costs of inadequate sanitation and hygiene and, therefore, preferring other spending priorities. For similar reasons, not many communities give priority to collective sanitation and hygiene improvement, with few of those using improved sanitation facilities realizing that their families are affected by the inadequate sanitation of their neighbors.

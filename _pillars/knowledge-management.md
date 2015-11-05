@@ -7,7 +7,7 @@ slug: knowledge-management
 pname: "Knowledge <br> Management"
 link: https://goo.gl/df2uYt
 banner:
-    - https://res.cloudinary.com/phwashresources/image/upload/v1441343515/banner/knowledge.jpg
+    - /images/banner/knowledge.jpg
 
 description: >
    Knowledge Management is “a systematic effort to enable information and knowledge to grow, flow and create value. The discipline is about creating and managing the processes to get the right knowledge to the right people at the right time and help people to share and action on information in order to improve performance.”

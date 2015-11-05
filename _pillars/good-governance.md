@@ -6,7 +6,7 @@ name: "Governance"
 slug: governance
 link: https://goo.gl/0TCEQ1
 banner:
-    - https://res.cloudinary.com/phwashresources/image/upload/v1441343532/banner/governance.jpg
+    - /images/banner/governance.jpg
 pname: Governance
 
 description: >
