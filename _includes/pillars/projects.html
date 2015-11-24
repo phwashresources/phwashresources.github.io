@@ -1,4 +1,6 @@
 <div id="projects" class="container">
+    <h4 class="text-center project-introduction">{{ page.projectIntroduction }}</h4>
+    <br/>
     <div id="projects-content" class="row">
         {% for projects in page.projects %}
         <div class="col-lg-6 col-md-6">
@@ -24,7 +26,7 @@
     </div>
     {% if page.slug == "knowledge-management" %}
     <div class="content-extension">
-        <a class="text-center" href="https://goo.gl/GfnSQP" target="_blank">More resources on knowledge management can be found here.</a>
+        <a class="text-center" href="https://goo.gl/GfnSQP" target="_blank">Click here for more Knowledge Management resources.</a>
     </div>
     {% endif %}
 </div>

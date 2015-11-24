@@ -1,6 +1,17 @@
 <div class="container">
     <article id="article-content">
         <h1 class="pillar-header">{{ page.title }}</h1>
-        <p>{{ page.description }}</p>
+        <p class="pillars-description">{{ page.description }}</p>
+
+        {% if page.url == "/phats/demand-creation-in-communities/" or "/phats/sanitation-management/" %}
+        <ul type="circle">
+        {% for phlist in  page.phlist %}
+            <li class="ph-list">{{ phlist.address }}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
     </article>
 </div>
+{% if page.url == "/phats/good-governance/" %}
+<hr class="project-line"/>
+{% endif %}

@@ -1,10 +1,16 @@
 <div class="container">
     <article id="article-content">
         <h1 class="pillar-header">PhATS</h1>
-        <p>The Philippines WaSH Cluster partners have worked with the Department of Health to develop a Sanitation Strategy for Early Recovery in Yolanda (Haiyan) affected areas based on the rural sanitation concept prior to Yolanda. The proposed Phased Approach to Total Sanitation (PhATS) is designed to help the national government achieve the goals set forth in the Philippine Sustainable Sanitation Roadmap and the National Sustainable Sanitation Plan. It builds on these national instruments envisioning the creation of an open defecation free environment with safe disposal of liquid and solid wastes; the promotion of health and hygiene practices; and the strengthening of the enabling environment for sanitation and hygiene, through a phased and holistic approach to sanitation development.</p>
-        <p>The rationale to have a Phased approach is linked to the sector prioritizing sanitation referring to the socio-economic, political and cultural context, including its development trajectory with slow progress on rural sanitation and regional and income group based inequities, the occurrence of frequent disasters and the current development aid architecture. The strategy also tries to take note of the institutional setup of the sector, the existing links to national provincial and local institutions and recent patterns of public and private sector investment.</p>
+        <p>The Philippines WaSH Cluster partners, with the Department of Health, have developed a Sanitation Strategy for Early Recovery in Yolanda (Haiyan)-affected areas based on prior rural sanitation practices. The proposed Phased Approach to Total Sanitation (PhATS) is designed to assist the national government achieve goals in the Philippine Sustainable Sanitation Roadmap and the National Sustainable Sanitation Plan. PhATS builds on these plans to develop safe disposal of human waste, promoting health and hygiene practices and creating a phased and holistic approach to sanitation development.</p>
+        <br/>
+        <h4>A phased approach addresses:</h4>
+        <ul type="circle">
+            {% for phAddress in site.data.phasedAddress %}
+                <li class="ph-list">{{ phAddress.address }}</li>
+            {% endfor %}
+        </ul>
     </article>
-    <p id="pillars-description">The strategy aims to provide a common framework for the achievement of zero open defecation (ZOD) status and is implemented across six key pillars; follow the links below to learn more about each:</p>
+    <p id="pillars-description">The strategy aims to provide a framework to achieve zero open defecation (ZOD), implemented through six pillars:</p>
     <div class="pillars-container">
         <div class="row">
             {% assign sorted-pillar = site.pillars | sort:"id" %}

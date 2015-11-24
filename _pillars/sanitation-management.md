@@ -5,22 +5,27 @@ title: "SUSTAINING DEMAND THROUGH SUPPLY SIDE INTERVENTION: Sanitation Marketing
 name: "Sanitation Marketing"
 slug: sanitation-management
 pname: "Sanitation <br> Marketing"
-link: https://goo.gl/VQ0iax
+link: /phats/sanitation-management/
 banner:
     - /images/banner/sanitation.jpg
 
 description: >
-    The supply component of the Phased Approach to Total Sanitation (PhATS) aims to strengthen local supply chains for sanitation and hygiene goods and services and encourage Sanitation Marketing (SanMark). Through SanMark, suppliers and service providers market their goods and services to rural households, with the aim of increasing demand, improving supply and achieving greater sales and profits.
+    The Phased Approach to Total Sanitation (PhATS) supply component aims to strengthen local supply chains for sanitation and hygiene goods and services through Sanitation Marketing (SanMark). Through SanMark, suppliers and service providers market their good and services to rural households to increase demand, improve supply and increase sales and profits.
     <br/><br/>
-    Samaritan Purse (SP), in an initial step, enrolled 25 local entrepreneurs in training and coaching on topics such as latrine product fabrication, marketing, and business model development with the goal to enable the entrepreneurs to develop small sanitation businesses which could serve their neighbors with the sanitation products they so desperately need. Sanitation Marketing activities are harmonized with the Demand Creation component of the PhATS program. Before SanMark is introduced in a community, the barangay is “triggered” by the SP Hygiene Promotion team, leading them to reach Zero Open Defecation (ZOD) at, Grade 1 (G1) status (shared latrines), creating a demand for low-cost sanitation products within the community at household level.
+    Samaritan’s Purse (SP) initially enrolled 25 entrepreneurs to develop small sanitation businesses to serve their neighbors. SanMark promotions follow Demand Creation activities:
 
+phlist:
+    - address: Barangay is “triggered” by SP Hygiene Promotion team
+    - address: Barangay works to reach Grade 1 Zero Open Defecation (ZOD) certification (share latrines)
+    - address: Demand created for low-cost sanitation products at the household level
+    
 projects:
-    - title: SanMark KM Drive
-      description: Want to know more about PhATS Supply Side Intervention/Sanitation Marketing? Check out the latest Knowledge Management Pieces!
+    - title: SanMark Knowledge Management Drive
+      description: "Click below for PhATS Supply Side Intervention/Sanitation Marketing Knowledge Management pieces including best practices:"
       url: https://goo.gl/xyRDH5
 
     - title: SanMark Resource Drive
-      description: Research resources on Sanitation Marketing both in the Philippines and around the world can be found here.
+      description: "Click below for more resources on Sanitation Marketing in the Philippines and around the world:"
       url: https://goo.gl/5pgQIA
 svg: >
     <?xml version="1.0" encoding="utf-8"?>

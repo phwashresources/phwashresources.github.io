@@ -5,29 +5,35 @@ title: "PARTICIPATORY DEMAND CREATION IN LEARNING INSTITUTIONS, INCLUDING DAY CA
 name: "WaSH in Schools"
 slug: wash-in-school
 pname: "Wash in Schools"
-link: https://goo.gl/S6kFJd
+link: /phats/wash-in-schools/
 
 banner:
     - /images/banner/wash.jpg
 
 description: >
-    Countless studies have proven that  health is essential to achieving increased educational performance. However, the prevalence of WaSH related diseases still affects many school children in the Philippines These diseases are highly preventable through basic Water, Sanitation and Hygiene interventions. In the PhATS approach, Learning Institutions (Schools and Day Care Centers) are used as entry points and avenues to improving the health status of children and adolescents while empowering them to be messengers of change for community interventions. In addition, the approach also includes capacity development for governmental counterparts of DepEd to improve enabling environment.
+    Health can be essential to educational success, though many children in the Philippines contract diseases due to poor WaSH practices. In the PhATS approach, learning institutions (schools and day care centers) are avenues to improve youth health and empower them to be messengers of change in their communities. This approach also develops capacity for Department of Education (DepEd) government counterparts in regards to WaSH learning.
     <br/><br/>
-    The implementation of WaSH in Schools (WinS) and Day Care Centers uses the Three Star Approach to effectively help schools to meet the minimum standard for WaSH in learning institutions.
+    WaSH in Schools (WinS) and Day Care Centers are implemented with a Three-Star Approach to support institutions in meeting minimum WaSH standards:
     <br/><br/>
-    The Department of Education (DepEd) School Based Management (SBM) is used as the main mode of implementation for managing and rolling out the program component. In addition, NGO partners are using schools as entry points for their intervention to ensure that children have access to soap and water for handwashing; safe water for drinking; gender segregated toilets; and access to functional washing facilities.
+    <ul type="circle">
+     	<li class="ph-list">DepEd School Based Management (SBM) manages and introduces the program with support from NGO partners providing students with access to soap and water for handwashing, safe drinking water, gender-separated toilets and functional washing facilities.</li>
+        <li class="ph-list">Promote local investments and inter-sectoral collaboration and community involvement, including WaSH in School Improvement Plans and Annual Investment Plans.</li>
+        <li class="ph-list">Encourage students to lead in daily WaSH activities and hygiene promotion to become messengers of change among peers, family and community.</li>
+    </ul>
     <br/><br/>
-    In line with the overall PhATS strategy, local investments are promoted as well as inter-sectoral collaboration and community involvement by including WaSH in School Improvement Plans and Annual Investment Plans. This helps schools prioritize WaSH by providing a pathway for meeting national standards.
+    <p>The Department of Education (DepEd) School Based Management (SBM) is used as the main mode of implementation for managing and rolling out the program component. In addition, NGO partners are using schools as entry points for their intervention to ensure that children have access to soap and water for handwashing; safe water for drinking; gender segregated toilets; and access to functional washing facilities.</p>
     <br/><br/>
-    Apart from improving WaSH infrastructures; children are encouraged to take the lead in daily WaSH activities and hygiene promotion aiming at empowering them to become messengers of change to their peers, parents, siblings and entire communities.
+    <p>In line with the overall PhATS strategy, local investments are promoted as well as inter-sectoral collaboration and community involvement by including WaSH in School Improvement Plans and Annual Investment Plans. This helps schools prioritize WaSH by providing a pathway for meeting national standards.</p>
+    <br/><br/>
+    <p>Apart from improving WaSH infrastructures; children are encouraged to take the lead in daily WaSH activities and hygiene promotion aiming at empowering them to become messengers of change to their peers, parents, siblings and entire communities.</p>
 
 projects:
-    - title: WinS KM Drive
-      description: Want to know more about PhATS WaSH in Schools? Check out the latest Knowledge Management Pieces!!
+    - title: WaSH in Schools Knowledge Management Drive
+      description: "Click below for PhATS WaSH in Schools Knowledge Management pieces including best practices:"
       url: https://goo.gl/P1SlVd
 
-    - title: WinS Resource Drive
-      description: Research resources on WaSH in Schools both in the Philippines and around the world can be found here.
+    - title: WaSH in Schools Resources Drive
+      description: "More resources such as technical guides on WaSH in Schools in the Philippines and around the world will be uploaded below:"
       url: https://goo.gl/liMme9
       
 svg: >

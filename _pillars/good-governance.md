@@ -4,7 +4,7 @@ layout: pillars
 title: "ENABLING ENVIRONMENT: Good Governance"
 name: "Governance"
 slug: governance
-link: https://goo.gl/0TCEQ1
+link: /phats/good-governance/
 banner:
     - /images/banner/governance.jpg
 pname: Governance
@@ -12,17 +12,31 @@ pname: Governance
 description: >
    The United Nations Development Programme (UNDP) defines governance as “the exercise of political, economic and administrative authority to manage a nation’s affairs at all levels. It comprises the mechanisms, processes and institutions through which citizens and groups articulate their interests, exercise their legal rights, meet their obligations and mediate their differences”.
    <br/><br/>
-   By this definition, governance is not a unilateral or exclusive function of one party. Effective governance is the mid-dle ground, where the government and its citizens engage in a constant and constructive partnership to jointly deter-mine their quality of life as a community. Aspects of this community life include formulation and enforcement of policies, and management of resources for the greater good.
+   
+   Effective governance is the middle ground where the government and community engages in constant, constructive partnerships to determine quality of life. Community life should include enforcement of developed policies and resource management.
    <br/><br/>
-   The Department of Interior and Local Government (DILG) is the national government agency in charge of building WaSH Governance. At the local level there is no mandated department directly responsible for WaSH. However the DILG has developed “Karapatan at Kaalaman sa Katubigan,” two extensive documents that discuss the concepts, challenges and operationalization of Human Rights Based Local WatSan Governance. This program is linked to various funding streams as a requirement and works on: Developing WaSH focused governance structures with-in the LGUs; Planning WaSH systems; Building accountable and transparent WaSH service providers; Having all systems built with extensive community participation to create accountability and transparency of duty bearers ensuring that WaSH services are provided as a Human Right.
+   
+   The Department of Interior and Local Government (DILG) builds WaSH governance. Due to no locally mandated departments responsible for WaSH efforts, the DILG developed two documents,Karapatan at Kaalaman sa Katubigan, to discuss concepts, challenges and operations of Human Rights-Based Local WatSan Governance.
    <br/><br/>
-   Governance is process-based and re-quires government and community duty-bearers to systematically follow processes to achieve successful WaSH service delivery. The key to sustainability is the institutionalization of the process and its outputs. Explicit mechanisms to build resiliency and improve equity are required, including pro-poor budgeting and careful monitoring and evaluation of subsidy targeting. Benchmarking progress and performance across LGUs (barangays and municipalities) highlights performance, demonstrating what is possible through effective use of local resources, capacity and programs, and putting pressure on un-der-performers.
+   <h4>Linked to funding streams, the program:</h4>
+    <ul type="circle">
+     <li class="ph-list">Develops WaSH governance structures through Local Government Units (LGUs)</li>
+     <li class="ph-list">Plans WaSH systems</li>
+     <li class="ph-list">Builds accountable and transparent WaSH service providers</li>
+     <li class="ph-list">Allows extensive community involvement for accountability and transparency of duty bearers to ensure WaSH services as human rights</li>
+    </ul>
+   
    <br/><br/>
-   Governance is an integral part of the demand and supply sections. Community demand can drive good governance, and good governance can stimulate and support demand. For account-able and equitable supply, good governance structures are needed. Plans are needed to ensure that demand and supply are maintained. Good governance leads to more investment, and even though the WaSH governance structures within the Philippines are fragmented, there is increasing demand for cohesion. Local governments have the ability to do this through the support of DILG and DOH at the various levels.
+   <p>The key to sustainable governance is an institutional process and outputs. Specific mechanisms are necessary to build resiliency and improve equity, including monitoring and evaluation of subsidy targeting. Benchmark evaluations in barangays and municipalities highlight performance and achievements  through local resources, capacity and programs, while identifying problem areas.</p>
+   <br/><br/>
+   
+   <p>Governance also supports demand and supply. The community demands quality governance which can stimulate and support demand, while providing accountable and equitable supply. Quality governance leads to increased investment and encourages cohesion among governance structures in the Philippines, through the DILG and DOH supporting LGUs.</p>    
+
+projectIntroduction: To learn more about governance best practices, visit the Governance Knowledge Management Drive. For resources such as technical guides on governance in the Philippines and around the world, visit the Governance Resource Drive.
 
 projects:
-    - title: Governance KM Drive
-      description: Want to know more about PhATS Governance in Communities? Check out the latest Knowledge Management Pieces!
+    - title: Governance Knowledge Management Drive
+      description: "Click the Governance Knowledge Management button below for more information:"
       url: https://goo.gl/Jgu9Pf
 
     - title: Governance Resource Drive
