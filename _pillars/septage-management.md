@@ -16,13 +16,13 @@ description: >
     <br/><br/>
     As sanitation and hygiene services improve, barangays will have access to basic water safety planning and public health monitoring to detect disease-causing supply problems. Point of use water quality testing and response protocols will be developed with advocacy to Local Government Units (LGUs) for budget allocations and sustainable service resources.
     <br/><br/>
-    Construction of low-cost drainage, solid waste and wastewater disposal facilities will promote cost-effected waste management and encourage LGUs to obtain G3 Total Sanitation Barangay status. Faecal Sludge Management (FSM) systems should be introduced where septic tanks are preferred or required. Systems will be appropriate for rural contexts with low maintenance and simple technologies, correcting previous unstainable FSM interventions in the Philippines.
+    Construction of low-cost drainage, solid waste and wastewater disposal facilities will promote cost-effective waste management and encourage LGUs to obtain G3 Total Sanitation Barangay status. Faecal Sludge Management (FSM) systems should be introduced where septic tanks are preferred or required. Systems will be appropriate for rural contexts with low maintenance and simple technologies, correcting previous unstainable FSM interventions in the Philippines.
     <br/><br/>
     Sustainability monitoring systems will be introduced during the G2 graduation process to track toilet pit and septic tank problems:
-    <br/><br/>
+    <br/>
     <ul></ul>
         <li class="ph-list">Are pits emptied or replaced?</li>
-        <li class="ph-list">Are septic tanks regularly desluged?</li>
+        <li class="ph-list">Are septic tanks regularly desludged?</li>
         <li class="ph-list">Are local water bodies or open spaces contaminated by toilet pits or septic tanks?</li>
         <li class="ph-list">Is waste removal transported, treated or disposed safely?</li>
     <br/><br/>

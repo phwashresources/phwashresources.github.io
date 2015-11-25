@@ -13,8 +13,8 @@ banner:
 description: >
    WaSH service improvement is hindered by low household demand for sanitation and hygiene, primarily due to misunderstanding of costs associated with household latrines. This perspective leads to a lack of initiative in communities to improve sanitation facilities and increased risk of disease.
    <br/><br/>
-   In line with a socio-ecologic model of change, this program pillar encourages the implementation of a range of different and complementary approaches to sanitation and hygiene demand creation at community and household levels: context, behavioral and social analysis to identify the bottlenecks and drivers towards collective sanitation outcomes; participatory demand creation campaigns designed to trigger rapid behavior change, encourage positive and sustainable actions to improve household sanitation, and plan towards collective sanitation outcomes such as Zero Open Defecation (ZOD) barangays; mass media campaigns; customized behavior change communications; local campaigns involving political, religious and community leaders; organizing and mobilizing communities to create avenues for dialogue with duty bearers to achieve consensus on action plans and coordinated action to enforce and monitor progress against those plans; and collective incentives and rewards designed to encourage behavior change, sustainability and resiliency.
-
+   Triggering, a socio-ecologic model, implements varied approaches to sanitation and hygiene demand creation at community and household levels:
+   
 phlist:
     - address: Context, behavioral and social analysis
     - address: Demand creation Activities to trigger rapid behavior change, leading to zero open defecation (ZOD) barangays
@@ -30,7 +30,7 @@ projects:
       url: https://goo.gl/F1ycxT
 
     - title: Triggering Resource Drive
-      description: "Click below for resources such as technical guides on Demand Creation/Triggering in the Philippines and around the world."
+      description: "Click below for resources such as technical guides on Demand Creation/Triggering in the Philippines and around the world:"
       url: https://goo.gl/JOH3bw
 
     - title: ZOD Maps Drive

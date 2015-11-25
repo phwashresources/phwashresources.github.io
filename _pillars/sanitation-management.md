@@ -10,7 +10,7 @@ banner:
     - /images/banner/sanitation.jpg
 
 description: >
-    The Phased Approach to Total Sanitation (PhATS) supply component aims to strengthen local supply chains for sanitation and hygiene goods and services through Sanitation Marketing (SanMark). Through SanMark, suppliers and service providers market their good and services to rural households to increase demand, improve supply and increase sales and profits.
+    The Phased Approach to Total Sanitation (PhATS) supply component aims to strengthen local supply chains for sanitation and hygiene goods and services through Sanitation Marketing (SanMark). Through SanMark, suppliers and service providers market their goods and services to rural households to increase demand, improve supply and increase sales and profits.
     <br/><br/>
     Samaritan’s Purse (SP) initially enrolled 25 entrepreneurs to develop small sanitation businesses to serve their neighbors. SanMark promotions follow Demand Creation activities:
 

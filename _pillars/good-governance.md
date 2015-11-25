@@ -16,7 +16,7 @@ description: >
    Effective governance is the middle ground where the government and community engages in constant, constructive partnerships to determine quality of life. Community life should include enforcement of developed policies and resource management.
    <br/><br/>
    
-   The Department of Interior and Local Government (DILG) builds WaSH governance. Due to no locally mandated departments responsible for WaSH efforts, the DILG developed two documents,Karapatan at Kaalaman sa Katubigan, to discuss concepts, challenges and operations of Human Rights-Based Local WatSan Governance.
+   The Department of Interior and Local Government (DILG) builds WaSH governance. Without locally mandated departments responsible for WaSH efforts, the DILG developed two documents, Karapatan at Kaalaman sa Katubigan, to discuss concepts, challenges and operations of Human Rights-Based Local WatSan Governance.
    <br/><br/>
    <h4>Linked to funding streams, the program:</h4>
     <ul type="circle">
@@ -32,15 +32,15 @@ description: >
    
    <p>Governance also supports demand and supply. The community demands quality governance which can stimulate and support demand, while providing accountable and equitable supply. Quality governance leads to increased investment and encourages cohesion among governance structures in the Philippines, through the DILG and DOH supporting LGUs.</p>    
 
-projectIntroduction: To learn more about governance best practices, visit the Governance Knowledge Management Drive. For resources such as technical guides on governance in the Philippines and around the world, visit the Governance Resource Drive.
+projectIntroduction: he Philippines and around the world, visit the Governance Resource Drive.
 
 projects:
     - title: Governance Knowledge Management Drive
-      description: "Click the Governance Knowledge Management button below for more information:"
+      description: "Click below to learn more about Governance Knowledge Management including best practices:"
       url: https://goo.gl/Jgu9Pf
 
     - title: Governance Resource Drive
-      description: Research resources on Governance both in the Philippines and around the world can be found here.
+      description: "Click below for resources such as technical guides on Governance in the Philippines and around the world:"
       url: https://goo.gl/FZnXWm   
 svg: >
     <?xml version="1.0" encoding="utf-8"?>
