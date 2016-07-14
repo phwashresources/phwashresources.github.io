@@ -9,7 +9,7 @@ phInstagram.runInstagramFeed = function () {
             new Instafeed({
                 get: 'user',
                 userId: 2194348646,
-                accessToken: '2194348646.467ede5.defa5414de76492d85119f57442516fb',
+                accessToken: 'c5329705157e40529b049418cfdf8899',
                 limit: 8,
                 sortBy: 'most-recent',
                 template: '<a href="{{link}}" target="_blank" class="col-md-2 col-sm-2 col-xs-6"><img src="{{image}}" /></a>',
