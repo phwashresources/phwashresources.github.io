@@ -8,6 +8,7 @@ phInstagram.runInstagramFeed = function () {
         if (Instafeed) {
             new Instafeed({
                 get: 'user',
+                userId: 2194348646,
                 clientId: '939773e2d8e94fe2a31940e250d74266',
                 limit: 8,
                 sortBy: 'most-recent',
